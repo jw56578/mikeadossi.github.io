@@ -93,16 +93,25 @@ a:hover{
 }
 
 .box{
-	background-color: #E3E0E2;
-	height:240px;
-	width:330px;
+	background-color:gray;
+	height:19em;
+	width:21em;
 	float:left; 
 	margin:15px;
 }
 
-#box1{
-	background-image: img("./images/ironquiz.png");
+.boxImage{
+	height:17em;
+	width:21em;
 }
+.boxHeading{
+	height:2em;
+	background-color:steelblue;
+	color:white;
+	text-align:center;
+	padding-top:1em;
+}
+
 
 #aboutMe{
 	clear:both;
