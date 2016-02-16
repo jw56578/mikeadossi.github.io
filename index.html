@@ -8,16 +8,16 @@
 <body>
 
 	<div id="topSection">
-		<nav>
+		<nav id="nav">
 			<span class="leftNavItems">
 				<div>
-					<a href="index.html#topSection" class="name">Name Here</a>
-					<p class="title">Front end developer</p> 
+					<a href="index.html#topSection" class="name navItem">Name Here</a>
+					<p class="title navItem">Front end developer</p> 
 				</div>
 			</span><span class="rightNavItems">
-				<span><a href="index.html#aboutMe">About</a></span>
-				<span><a href="http://www.mikeadossi.com" target="_blank">Blog</a></span>
-				<span><a href="#">Resume</a></span>
+				<span><a class="navItem" href="index.html#aboutMe">About</a></span>
+				<span><a class="navItem" href="http://www.mikeadossi.com" target="_blank">Blog</a></span>
+				<span><a class="navItem" href="#">Resume</a></span>
 			</span>
 
 		</nav>
@@ -25,7 +25,7 @@
 		<div class="centerpage">
 			<h3>Hello and welcome</h3>
 			<br>
-			<div class="scrollDown">
+			<div id="portfolioDiv">
 				<div class="scroll">My Portfolio</div>
 				<div class="scrollHand">&#9759</div>
 			</div>
@@ -35,12 +35,25 @@
 	<div class="downwardArrow">&#9660</div>
 	
 	<div id="portfolio">
-		<div class="box" id="box1"><div class="boxHeading">Barbers Chair</div><img class="boxImage" src="./images/barber.png"></div>
-		<div class="box box2"><div class="boxHeading">Group project</div><img class="boxImage" src="./images/ironquizzes.png"></div>
-		<div class="box box3"></div>
-		<div class="box box4"></div>
-		<div class="box box5"></div>
-		<div class="box box6"></div>
+		<div class="box" id="box1">
+			<div class="boxHeading">Barbers Chair</div>
+				<img class="boxImage" src="./images/barber.png">
+		</div>
+
+		<div class="box box2">
+			<div class="boxHeading">Group project</div>
+			<img class="boxImage" src="./images/ironquizzes.png">
+		</div>
+
+		<div class="box box3">
+			<div class="boxHeading">Studying Web App</div>
+			<img class="boxImage" src="./images/palaceSite.png">
+		</div>
+
+		<div class="box box4">
+			<div class="boxHeading">Nodejs Game</div>
+			<img class="boxImage" src="./images/redBoard.png">
+		</div>
 	</div>
 	<div class="skills">
 	<div class="downwardArrow2">&#9660</div>
@@ -83,7 +96,9 @@
 	<div class="bottomFooter"></div>
 	<div class="tailFooter"></div>
 
+	<script src="./node_modules/jquery/dist/jquery.js"></script>
 	<script src="./scripts/main.js"></script>
 	<script src="./node_modules/headhesive.js-master/dist/headhesive.min.js"></script>
+	<script src="./node_modules/underscore/underscore.js"></script>
 </body>
 </html>

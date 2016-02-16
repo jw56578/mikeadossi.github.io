@@ -1,7 +1,7 @@
 
 nav{
 	padding-top:20px;
-	background-color:#1E90FF;
+	background-color:transparent;
 	padding-bottom:5px;
 	top:0; 
 	position:fixed;
@@ -65,7 +65,7 @@ a:hover{
 	line-height:10px;
 }
 
-.scrollDown{
+#portfolioDiv{
 	margin-top:160px;
 	padding-top:50px;
 	padding-bottom:50px;
