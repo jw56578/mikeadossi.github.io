@@ -1,7 +1,8 @@
 /* 
-Must do wednesday
+Must do wednesday!
 - remove all floats 
 - segment out your content using percentages (9,40,2,40,9)
+- Create Resume
 */
 nav{
 	padding-top:20px;
@@ -86,26 +87,33 @@ a:hover{
 	margin-top:-2px;
 }
 
-#portfolio{
-	width:800px;
-	margin-left:auto;
-	margin-right:auto;
+#portfolioSection{
+	width:100%;
 	height:48em;
-	padding-top:60px;
-	padding-left:5px;
+	padding-top:10%;
 }
 
+.portfolioBox{
+	padding:1%;
+}
+
+.portfolioBox1, .portfolioBox2, .portfolioBox3, .portfolioBox4{
+	width:23%;
+	display:inline-block;
+}
+
+.portfolioBox1{background-color:green;}
+.portfolioBox2{background-color:orange;}
+.portfolioBox3{background-color:purple;}
+.portfolioBox4{background-color:yellow;}
+
 .box{
-	background-color:gray;
-	height:19em;
-	width:21em;
-	float:left; 
-	margin:15px;
+	width:100%;
 }
 
 .boxImage{
-	height:17em;
-	width:21em;
+	height:12em;
+	width:100%;
 }
 .boxHeading{
 	height:2em;
@@ -115,21 +123,20 @@ a:hover{
 	padding-top:1em;
 }
 
-.hiddenDiv{
-	background-color: gray;
-	height: 252px;
-	width:303px;
-	color:white;
-	padding-top:3em;
-	margin-top:-16em;
-	position:relative;
-	float:left;
-	opacity:0.6;
-	padding: 0 1em 0 1em;
+.hiddenDiv1, .hiddenDiv2, .hiddenDIv3, .hiddenDiv4{
+	/*width:25%;
+	display:inline-block;*/
 }
-
 .hiddenDiv{
 	display:none;
+	background-color: gray;
+	height:31.5%;
+	width:19%;
+	color:white;
+	margin-top:-30%;
+	position:absolute;
+	opacity:0.6;
+	padding:2%;
 }
 
 #box1:hover > .hiddenDiv1{
@@ -254,7 +261,13 @@ a:hover{
 } /* Use Bootstrap to reorganize nav links */
 
 @media only screen and (max-width: 401px){
-
+	.box{
+		width:70%;
+		margin:12% 12% 12% 14%;
+	}
+	.portfolioBox{
+		width:100%;
+	}
 	.portfolioDiv{
 		background-color:red;
 	}
@@ -265,14 +278,9 @@ a:hover{
 		font-size:1em;
 	}
 
-	#portfolio{
-		width:400px;
-		margin-left:1em;
-		margin-bottom:105em;
-	}
-
-	#box1, #box2, #box3, #box4{
-		margin-bottom:1.5em;
+	#portfolioSection{
+		width:100%;
+		margin-bottom:100em;
 	}
 
 	.viewButton{
@@ -289,19 +297,18 @@ a:hover{
 		display:block;
 		/* margin:0 2em 0 2em; */
 		text-align:center;
+		margin-top:-6%;
 	}
 
 	.portfolioUl{
 		list-style: none;
+		padding:0;
 	}
 
-	#box1:hover > .hiddenDiv1{
+	#box1:hover > .hiddenDiv1, #box2:hover > .hiddenDiv2, #box3:hover > .hiddenDiv3, #box4:hover > .hiddenDiv4{
 		display:none;
 	}
 
-	nav{
-		background-color:red;
-	}
 }
 
 @media (min-width:401px) and (max-width: 472px){

@@ -1,7 +1,7 @@
 'use strict';
 
 $(document).ready(function(){
-var mq = window.matchMedia("(min-width: 402px)")
+var mq = window.matchMedia("(min-width: 870px)")
 var scrollTopValue;
 var portfolioDiv = $('#portfolioDiv')
 var updatePosition = function(){
