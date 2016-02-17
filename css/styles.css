@@ -1,4 +1,8 @@
-
+/* 
+Must do wednesday
+- remove all floats 
+- segment out your content using percentages (9,40,2,40,9)
+*/
 nav{
 	padding-top:20px;
 	background-color:transparent;
@@ -144,6 +148,9 @@ a:hover{
 	display:block;
 }
 
+.viewButton{
+	display:none;
+}
 #aboutMe{
 	clear:both;
 	background-color:azure;
@@ -223,7 +230,10 @@ a:hover{
 }
 .bottomFooter{
 	background-color:black;
-	height:2em;
+	height:36px;
+	color:white;
+	text-align:center;
+	padding-top:20px;
 }
 .bottom{
 	background-color:red;
@@ -234,4 +244,81 @@ a:hover{
 .tailFooter{
 	background-color:orange;
 	height:0.2em;
+}
+.mobileDetails{
+	display:none;
+}
+
+/*@media(max-width: 851px){
+	#nav{background-color:#1E90FF;}
+} /* Use Bootstrap to reorganize nav links */
+
+@media only screen and (max-width: 401px){
+
+	.portfolioDiv{
+		background-color:red;
+	}
+
+	#aboutMe{
+		padding: 4em 2em 1em 2em;
+		margin-top:-23px;
+		font-size:1em;
+	}
+
+	#portfolio{
+		width:400px;
+		margin-left:1em;
+		margin-bottom:105em;
+	}
+
+	#box1, #box2, #box3, #box4{
+		margin-bottom:1.5em;
+	}
+
+	.viewButton{
+		display:block;
+		margin-left:30%;
+		height:2em;
+		width:8em;
+		border:solid steelblue 1px;
+		background-color:white;
+		margin-bottom:3em;
+	}
+
+	.mobileDetails{
+		display:block;
+		/* margin:0 2em 0 2em; */
+		text-align:center;
+	}
+
+	.portfolioUl{
+		list-style: none;
+	}
+
+	#box1:hover > .hiddenDiv1{
+		display:none;
+	}
+
+	nav{
+		background-color:red;
+	}
+}
+
+@media (min-width:401px) and (max-width: 472px){
+	#aboutMe{
+		padding: 4em 2em 1em 2em;
+		font-size:1em;
+	}
+}
+
+@media (min-width:472px) and (max-width: 930px){
+	#aboutMe{
+		padding: 4em 2em 1em 2em;
+	}
+}
+
+@media (min-width:930px){
+	#aboutMe{
+		padding: 4em 5em 1em 5em;
+	}
 }

@@ -2,13 +2,14 @@
 <html>
 <head>
 	<title>Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/styles.css" type="text/css"/>
 	<link rel="stylesheet" href="./css/normalize.css" type="text/css"/>
 </head>
 <body>
 
 	<div id="topSection">
-		<nav id="nav">
+		<nav id="nav" class="navigation">
 			<span class="leftNavItems">
 				<div>
 					<a href="index.html#topSection" class="name navItem">Name Here</a>
@@ -25,7 +26,7 @@
 		<div class="centerpage">
 			<h3>Hello and welcome</h3>
 			<br>
-			<div id="portfolioDiv">
+			<div id="portfolioDiv" class="portfolioDiv">
 				<div class="scroll">My Portfolio</div>
 				<div class="scrollHand">&#9759</div>
 			</div>
@@ -33,9 +34,10 @@
 	</div>
 
 	<div class="downwardArrow">&#9660</div>
-	
+
+	<!-- </div> -->
 	<div id="portfolio">
-		<div class="box" id="box1">
+		<a href="#"><div class="box" id="box1">
 			<div class="boxHeading">Barbers Chair</div>
 				<img class="boxImage" src="./images/barber.png">
 				<div class="hiddenDiv hiddenDiv1">
@@ -51,9 +53,25 @@
 						<li>Google API</li>
 					</ul>
 				</div>
+		</div></a>
+		<div class="mobileDetails">
+			<p>A scheduling and IoT solution for barbers</p>
+			<p>Tools:</p>
+			<ul class="portfolioUl">
+				<li>HTML, CSS, JS</li>
+				<li>jQuery</li>
+				<li>Bootstrap</li>
+				<li>Backbone</li>
+				<li>Sass</li>
+				<li>Parse</li>
+				<li>Google API</li>
+			</ul>
 		</div>
+		<button class="viewButton">View</button>
+	<!-- </div> -->
 
-		<div class="box" id= "box2">
+	<!-- </div> -->
+		<a href="#"><div class="box" id= "box2">
 			<div class="boxHeading">Group project</div>
 			<img class="boxImage" src="./images/ironquizzes.png" alt="Thumb of Iron Quizzes website">
 				<div class="hiddenDiv hiddenDiv2">
@@ -69,9 +87,25 @@
 						<li>Google API</li>
 					</ul>
 				</div>
+		</div></a>
+		<div class="mobileDetails">
+			<p>Quiz app developed by 16 contributors</p>
+			<p>Tools:</p>
+			<ul class="portfolioUl">
+				<li>HTML, CSS, JS</li>
+				<li>jQuery</li>
+				<li>Bootstrap</li>
+				<li>React</li>
+				<li>Sass</li>
+				<li>Parse</li>
+				<li>Google API</li>
+			</ul>
 		</div>
+		<button class="viewButton">View</button>
+	<!-- </div> -->
 
-		<div class="box" id= "box3">
+	<!-- </div> -->
+		<a href="#"><div class="box" id= "box3">
 			<div class="boxHeading">Studying Web App</div>
 			<img class="boxImage" src="./images/palaceSite.png"  alt="Thumb of Palace website">
 				<div class="hiddenDiv hiddenDiv3">
@@ -84,9 +118,22 @@
 						<li>Node.js</li>
 					</ul>
 				</div>
-		</div>
+		</div></a>
+			<div class="mobileDetails">
+				<p>Easy to use multimedia study tool</p>
+				<p>Tools:</p>
+				<ul class="portfolioUl">
+					<li>HTML, CSS, JS</li>
+					<li>jQuery</li>
+					<li>Bootstrap</li>
+					<li>Node.js</li>
+				</ul>
+			</div>
+		<button class="viewButton">View</button>
+	<!-- </div> -->
 
-		<div class="box" id= "box4">
+	<!-- </div> -->
+		<a href="#"><div class="box" id= "box4">
 			<div class="boxHeading">Nodejs Game</div>
 			<img class="boxImage" src="./images/redBoard.png" alt="Thumb of a Tictactoe board">
 				<div class="hiddenDiv hiddenDiv4">
@@ -97,7 +144,18 @@
 						<li>Node.js</li>
 					</ul>
 				</div>
+		</div></a>
+		<div class="mobileDetails">
+			<p>Tictactoe game made with Nodejs</p>
+			<p>Tools:</p>
+			<ul class="portfolioUl">
+				<li>HTML, CSS</li>
+				<li>Node.js</li>
+			</ul>
 		</div>
+		<button class="viewButton">View</button>
+	<!-- </div> -->
+
 	</div>
 	<div class="skills">
 	<div class="downwardArrow2">&#9660</div>
@@ -137,7 +195,7 @@
 		<a href="https://www.linkedin.com/in/michael-adossi-540407b9?trk=hp-identity-name" target="_blank"><img class="linkedInLogo" src="./images/social-linkedin.png"></a>
 		<a class="mailto" href="mailto:mikeadossi@gmail.com" href=""><img class="mailPicture" src="./images/mail-pic.png"></a>
 	</div>
-	<div class="bottomFooter"></div>
+	<div class="bottomFooter">Copyright &copy Michael Adossi, 2016</div>
 	<div class="tailFooter"></div>
 
 	<script src="./node_modules/jquery/dist/jquery.js"></script>
