@@ -1,8 +1,4 @@
-/* TODO: create resume */
-/* TODO: Affix the tools list properly unto each portfolio box */
-/* TODO: Optiize for lanscape mobile view?*/
-/* TODO: test it out on a mobile phone */
-/* TODO: Put site through a validator */
+
 nav{
 	padding-top:20px;
 	background-color:transparent;
@@ -355,7 +351,7 @@ a:hover{
 
 }
 
-@media (min-width:810px) and (max-width:980px){
+@media (min-width:811px) and (max-width:980px){
 
 	.portfolioBox1, .portfolioBox2, .portfolioBox3, .portfolioBox4{
 		width:45%;
@@ -369,6 +365,12 @@ a:hover{
 	.portfolioSection{
 		text-align:center;
 		width:80%;
+	}
+
+	.hiddenDiv{
+		height:26.8%;
+		width:41%;
+		margin-top:-27%;
 	}
 
 }
@@ -387,6 +389,12 @@ a:hover{
 	.portfolioSection{
 		text-align:center;
 		width:100%;
+	}
+
+	.hiddenDiv{
+		height:26.8%;
+		width:41%;
+		margin-top:-27%;
 	}
 }
 
@@ -414,6 +422,14 @@ a:hover{
 	.portfolioSection{
 		text-align:center;
 	}
+
+	.hiddenDiv{
+		height:11.14em;
+		width:26.875em;
+		margin-top:-55.3%;
+		position:static;
+		float:right;
+	}
 }
 
 @media (min-width:1208px) and (max-width:1280px){
@@ -426,6 +442,14 @@ a:hover{
 	.portfolioBox{
 		padding:2%;
 	}
+
+	.hiddenDiv{
+		height:10em;
+		width:26.9em;
+		margin-top:-51%;
+		position:static;
+		float:right;
+	}
 }
 
 @media (min-width:1281px){
@@ -437,5 +461,13 @@ a:hover{
 
 	.portfolioBox{
 		padding:2%;
+	}
+
+	.hiddenDiv{
+		height:10.2em;
+		width:96%;
+		margin-top:-52%;
+		position:static;
+		float:right;
 	}
 }
