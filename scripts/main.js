@@ -10,7 +10,7 @@ var updatePosition = function(){
 	scrollTopValue = $(window).scrollTop()
 
 	if(scrollTopValue >= 382){
-		$('#nav').css('background-color','steelblue');
+		$('#nav').css('background-color','#1E90FF');
 		$('.navItem').css('color','white')
 	} else{
 		$('#nav').css('background-color','transparent');

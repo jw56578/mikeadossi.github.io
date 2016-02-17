@@ -86,10 +86,9 @@ a:hover{
 	width:800px;
 	margin-left:auto;
 	margin-right:auto;
-	height:52em;
+	height:48em;
 	padding-top:60px;
 	padding-left:5px;
-	padding-bottom:60px;
 }
 
 .box{
@@ -112,6 +111,38 @@ a:hover{
 	padding-top:1em;
 }
 
+.hiddenDiv{
+	background-color: gray;
+	height: 252px;
+	width:303px;
+	color:white;
+	padding-top:3em;
+	margin-top:-16em;
+	position:relative;
+	float:left;
+	opacity:0.6;
+	padding: 0 1em 0 1em;
+}
+
+.hiddenDiv{
+	display:none;
+}
+
+#box1:hover > .hiddenDiv1{
+	display:block;
+}
+
+#box2:hover > .hiddenDiv2{
+	display:block;
+}
+
+#box3:hover > .hiddenDiv3{
+	display:block;
+}
+
+#box4:hover > .hiddenDiv4{
+	display:block;
+}
 
 #aboutMe{
 	clear:both;
