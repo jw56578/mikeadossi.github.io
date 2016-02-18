@@ -149,6 +149,16 @@ a:hover{
 .viewButton{
 	display:none;
 }
+
+.skillSections{
+	padding-bottom:1em;
+	color:grey;
+}
+
+.nodejsLogo{
+	margin-top:-2em;
+}
+
 #aboutMe{
 	clear:both;
 	background-color:azure;
@@ -267,7 +277,7 @@ a:hover{
 
 	#portfolioSection{
 		width:100%;
-		margin-bottom:100em;
+		margin-bottom:3em;
 	}
 
 	.viewButton{
