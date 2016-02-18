@@ -1,4 +1,9 @@
-
+/* TODO: create resume */
+/* TODO: Optiize for landscape mobile view?*/
+/* TODO: test it out on a mobile phone */
+/* TODO: Put site through a validator */
+/* TODO: Download icon-font from fontawesome, fontface is the css directory you'll need */
+/* TODO: Color in the background of your icon-fonts*/
 nav{
 	padding-top:20px;
 	background-color:transparent;
@@ -86,6 +91,7 @@ a:hover{
 	height:100%;
 	padding-top:10%;
 	text-align:center;
+	background-color:white;
 }
 
 .portfolioBox{
@@ -120,13 +126,13 @@ a:hover{
 
 .hiddenDiv{
 	display:none;
-	background-color: gray;
+	background-color: black;
 	height:25.8%;
 	width:66%;
 	color:white;
 	margin-top:-44%;
 	position:absolute;
-	opacity:0.6;
+	opacity:0.7;
 	padding:2%;
 }
 
@@ -173,7 +179,7 @@ a:hover{
 	color:white;
 	padding-bottom:2em;
 }
-.skills{  /* TODO: Change font of each section */    /* TODO: remove Nodejs? or include text w/ pointer */
+.skills{    /* TODO: remove Nodejs? or include text w/ pointer */
 	clear:both;
 	text-align:center;
 	padding-top:2em;

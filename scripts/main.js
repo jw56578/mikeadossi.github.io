@@ -36,4 +36,49 @@ var throttled = _.throttle(updatePosition, 300)
 
 window.onscroll = throttled;
 
+
+// 
+
+/*$(function() {
+    $('body').on('click', '#aboutLink a', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
+}); */
+
+
+/*
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(#aboutMe);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 1500, 'easeInOutExpo', function () {
+	        window.location.hash = target;
+	    });
+	});
+*/
+	$('a[href^="#"]').click(function (e) {
+	    
+	    var target = $(this).attr('href');
+	    var strip = target.slice(1);
+	    var anchor = $("a[name='" + strip + "' ]");
+
+	    e.preventDefault();
+
+	    $('html, body').animate({
+
+	        scrollTop: anchor.offset().top
+	        
+	    },'slow');
+
+	});
+
+
 });
