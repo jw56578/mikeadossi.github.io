@@ -359,6 +359,12 @@ a:hover{
 		height:20%;
 	}
 
+	.skills{
+		padding-left:10%; 
+		padding-right:10%;
+		padding-bottom:4em;
+	}
+
 }
 
 @media (min-width:476px) and (max-width: 500px){ /* TODO: Withut using bootstrap adjust nav menu to work well with mobile */
@@ -386,6 +392,12 @@ a:hover{
 		font-size:1em;
 	}
 
+	.skills{
+		padding-left:10%; 
+		padding-right:10%;
+		padding-bottom:4em;
+	}
+
 }
 
 @media (min-width:501px) and (max-width: 810px){
@@ -411,6 +423,12 @@ a:hover{
 	#aboutMe{
 		padding: 4em 2em 1em 2em;
 		font-size:1em;
+	}
+
+	.skills{
+		padding-left:10%; 
+		padding-right:10%;
+		padding-bottom:4em;
 	}
 
 }
