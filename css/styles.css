@@ -1,9 +1,5 @@
 /* TODO: create resume */
 /* TODO: Optiize for landscape mobile view?*/
-/* TODO: test it out on a mobile phone */
-/* TODO: Put site through a validator */
-/* TODO: Download icon-font from fontawesome, fontface is the css directory you'll need */
-/* TODO: Color in the background of your icon-fonts*/
 nav{
 	padding-top:20px;
 	background-color:transparent;
@@ -113,7 +109,8 @@ a:hover{
 #portfolioSection{
 	width:100%;
 	height:100%;
-	padding-top:10%;
+	padding-top:5%;
+	padding-bottom:5%;
 	text-align:center;
 	background-color:white;
 }
