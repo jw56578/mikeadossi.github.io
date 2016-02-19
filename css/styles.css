@@ -1,5 +1,8 @@
 /* TODO: create resume */
 /* TODO: Optiize for landscape mobile view?*/
+html, body{
+	overflow-x:hidden; 
+}
 nav{
 	padding-top:20px;
 	background-color:transparent;
@@ -440,7 +443,7 @@ a:hover{
 
 	.portfolioSection{
 		text-align:center;
-		width:80%;
+		width:80%
 	}
 
 	.hiddenDiv{
