@@ -5,20 +5,30 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/styles.css" type="text/css"/>
 	<link rel="stylesheet" href="./css/normalize.css" type="text/css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
 <a name="topOfPage"></a>
 	<div id="topSection">
 		<nav id="nav" class="navigation">
-			<span class="leftNavItems">
+			<span class="leftNavContainer">
 				<div>
 					<a href="#topOfPage" href="index.html#topSection" class="name navItem">Name Here</a>
 					<p class="title navItem">Front end developer</p> 
 				</div>
-			</span><span class="rightNavItems">
-				<span ><a href="#aboutLink" class="navItem" href="index.html#aboutMe">About</a></span>
-				<span><a class="navItem" href="http://www.mikeadossi.com" target="_blank">Blog</a></span>
-				<span><a class="navItem" href="#">Resume</a></span>
+			</span><span class="rightNavContainer">
+				<span><a class="navItem rightNavItems" href="#aboutLink" href="index.html#aboutMe" >About</a></span>
+				<span><a class="navItem rightNavItems" href="http://www.mikeadossi.com" target="_blank">Blog</a></span>
+				<span><a class="navItem rightNavItems" href="#">Resume</a></span>
+				<span id="hamburger" class="navItem"><i class="fa fa-bars fa-2x"></i></span>
+			</span>
+			<span id="marginOnTopOFHamburgerMenu"></span>
+			<span id="hamburgerMenu">
+					<div><a class="hamburgerLink" href="#aboutLink" href="index.html#aboutMe">About</a></div>
+					<br>
+					<div><a class="hamburgerLink" href="http://www.mikeadossi.com" target="_blank">Blog</a></div>
+					<br>
+					<div><a class="hamburgerLink" href="#">Resume</a></div>
 			</span>
 
 		</nav>
