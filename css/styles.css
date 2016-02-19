@@ -1,5 +1,4 @@
 /* TODO: create resume */
-/* TODO: Hamburger menu and responsive scroll down */
 /* TODO: Optiize for landscape mobile view?*/
 /* TODO: test it out on a mobile phone */
 /* TODO: Put site through a validator */
@@ -286,6 +285,15 @@ a:hover{
 }
 .mobileDetails{
 	display:none;
+}
+
+.footerFa{
+	margin-left:20px;
+	color:black;
+}
+
+.footerFa:hover{
+	color:orange;
 }
 
 @media only screen and (max-width: 475px){
