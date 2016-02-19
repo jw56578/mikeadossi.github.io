@@ -192,18 +192,16 @@ a:hover{
 #aboutMe{
 	clear:both;
 	background-color:azure;
-	padding-top:80px;
-	padding-left:200px;
-	padding-right:270px;
-	padding-bottom:60px;
 	font-size:1.5em;
+	padding: 5% 9% 5% 9%;
 }
+
 .downwardArrow2{
 	margin-top:-2.15em;
 	color:white;
 	padding-bottom:2em;
 }
-.skills{    /* TODO: remove Nodejs? or include text w/ pointer */
+.skillsContainer{    /* TODO: remove Nodejs? or include text w/ pointer */
 	clear:both;
 	text-align:center;
 	padding-top:2em;
@@ -309,9 +307,7 @@ a:hover{
 	}
 
 	#aboutMe{
-		padding: 4em 2em 1em 2em;
 		margin-top:-23px;
-		font-size:1em;
 	}
 
 	#portfolioSection{
@@ -359,7 +355,7 @@ a:hover{
 		height:20%;
 	}
 
-	.skills{
+	.skillsContainer{
 		padding-left:10%; 
 		padding-right:10%;
 		padding-bottom:4em;
@@ -387,12 +383,7 @@ a:hover{
 		width:100%;
 	}
 
-	#aboutMe{
-		padding: 4em 2em 1em 2em;
-		font-size:1em;
-	}
-
-	.skills{
+	.skillsContainer{
 		padding-left:10%; 
 		padding-right:10%;
 		padding-bottom:4em;
@@ -420,12 +411,7 @@ a:hover{
 		width:100%;
 	}
 
-	#aboutMe{
-		padding: 4em 2em 1em 2em;
-		font-size:1em;
-	}
-
-	.skills{
+	.skillsContainer{
 		padding-left:10%; 
 		padding-right:10%;
 		padding-bottom:4em;
@@ -478,6 +464,7 @@ a:hover{
 		width:41%;
 		margin-top:-27%;
 	}
+
 }
 
 @media (min-width:1041px) and (max-width:1207px){
@@ -512,6 +499,7 @@ a:hover{
 		position:static;
 		float:right;
 	}
+
 }
 
 @media (min-width:1208px) and (max-width:1280px){
