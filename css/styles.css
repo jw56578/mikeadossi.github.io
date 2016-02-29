@@ -132,6 +132,7 @@ a:hover{
 .portfolioBox3{background-color:purple;}
 .portfolioBox4{background-color:yellow;}
 */
+
 .box{
 	width:100%;
 }
@@ -353,7 +354,7 @@ a:hover{
 
 	#hamburger{
 		display:block;
-	}
+	} 
 
 	.rightNavItems{
 		display:none;
@@ -428,6 +429,7 @@ a:hover{
 		padding-bottom:4em;
 	}
 
+
 }
 
 @media (min-width:811px) and (max-width:980px){
@@ -452,6 +454,7 @@ a:hover{
 		margin-top:-27%;
 	}
 
+
 }
 
 @media (min-width:981px) and (max-width:1040px){
@@ -475,6 +478,7 @@ a:hover{
 		width:41%;
 		margin-top:-27%;
 	}
+
 
 }
 
@@ -531,6 +535,7 @@ a:hover{
 		position:static;
 		float:right;
 	}
+
 }
 
 @media (min-width:1281px){
@@ -550,5 +555,12 @@ a:hover{
 		margin-top:-52%;
 		position:static;
 		float:right;
+	}
+
+}
+
+@media (min-width: 475px){
+	#hamburgerMenu{
+		display:none;
 	}
 }

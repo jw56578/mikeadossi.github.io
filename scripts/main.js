@@ -61,5 +61,12 @@ $("#hamburger").click(function(){
 	})
 })
 
+// Below we registered the resize event then wrote code to affect width of page. 
+$( window ).resize(function() {
+	if($(window).width() >= 475){
+		$("#hamburgerMenu").hide();
+	}
+});
+
 
 }); // end of js file
