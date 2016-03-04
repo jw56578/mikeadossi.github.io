@@ -1,0 +1,54 @@
+body{
+	background-color:firebrick;
+}
+header{
+	background-color:firebrick;
+	height:30em;
+	color:white;
+}
+header h1, header div{
+	padding-top:2em;
+	margin:0;
+	text-align:center;
+	font-family:Trebuchet MS1, Trebuchet MS, sans-serif;
+}
+header h1{
+	font-size:4em;
+}
+img{
+	height:6em;
+	width:6em;
+}
+#content{
+	background-color:white;
+	height:20em;
+	padding:3em 6em 2em 6em;
+	text-align:center;
+}
+footer{
+	background-color:black;
+	height:3em;
+	color:white;
+	text-align:center;
+	padding-top:1em;
+}
+#belowFooter{
+	background-color:red;
+	height:0.2em;
+}
+#button{
+	color:firebrick;
+	height:2em;
+	width:8em;
+	padding-top:1em;
+	margin: 0 auto;
+	border: solid firebrick 2px;
+	border-radius:8%;
+}
+#button:hover{
+	background-color:firebrick;
+	color:white;
+}
+a{
+	text-decoration:none;
+}
