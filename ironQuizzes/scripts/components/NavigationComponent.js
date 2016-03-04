@@ -51,7 +51,7 @@ module.exports = React.createClass({
 				<div id="hamburger" className="hamburger">
 					<img onClick={this.hamboiga} className="hamburger-image" src="../../images/hamburger.png"></img>
 				</div>
-				<a href="" id="logo-container"><img src="../../images/logo_pencil.png" className="logo"></img></a>
+				<a href="" id="logo-container"><img src="./images/logo_pencil.png" className="logo"></img></a>
 				{name}
 				<div className="beniz">
 					{links}
