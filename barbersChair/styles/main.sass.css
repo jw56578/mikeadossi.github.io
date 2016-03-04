@@ -1,0 +1,317 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #EFEFF4; }
+
+p {
+  margin: 0; }
+
+.btn-default {
+  background-color: #00BFFF;
+  color: white;
+  border: blue;
+  border-radius: 0;
+  margin-left: 5px; }
+  .btn-default:hover,
+  .btn-default:active,
+  .btn-default:focus {
+    background-color: dodgerblue;
+    color: white;
+    border: skyblue; }
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  height: inherit; }
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  position: fixed;
+  width: 100%; }
+
+.navbar-default {
+  background-color: indianred;
+  border-color: indianred;
+  color: white; }
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-brand {
+  color: white; }
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-brand:hover {
+    color: #bfbfbf; }
+
+.navbar-default .navbar-form {
+  border-color: indianred; }
+
+.navbar-default .navbar-nav > li > a > select {
+  color: initial; }
+  .navbar-default .navbar-nav > li > a > select:hover {
+    color: initial; }
+
+.container {
+  padding: 2em;
+  background-color: #EFEFF4;
+  min-height: 40em; }
+
+.contentContainer {
+  background-color: white;
+  padding: 2em;
+  margin-top: 4em; }
+
+.floatedLinks, #logo {
+  color: white;
+  margin: 0.5em; }
+
+.floatedLinks:hover, #logo:hover {
+  color: lightgray; }
+
+.logo {
+  padding: 1em; }
+
+.navInput {
+  margin-left: 5em; }
+
+.hello {
+  color: white;
+  background-color: green; }
+
+a {
+  text-decoration: none; }
+
+#linkContainer {
+  background-color: #CD5C5C;
+  float: right; }
+
+.barberImage {
+  height: 4em;
+  width: 4em; }
+
+.navContainer {
+  z-index: 999; }
+
+.navInput {
+  display: inline-block; }
+
+.chairDiv {
+  display: inline-block; }
+
+#footerContainer {
+  background-color: black;
+  height: 3em;
+  width: 100%;
+  margin-top: -1em; }
+
+#footerText {
+  color: gray;
+  text-align: center;
+  padding-top: 1em; }
+
+.input {
+  padding-top: -1em;
+  height: 1.5em; }
+
+.successMessage {
+  color: green; }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.inputContainer {
+  margin: auto;
+  width: 222px; }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#map-canvas {
+  min-height: 20em;
+  min-width: 100%; }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.barberSections {
+  background-color: #DCDCDC;
+  border: 1px solid #BFBFBF;
+  height: 2em;
+  margin: 0.2em; }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.submitButton, .findButton {
+  border: none;
+  color: white;
+  height: 1.5em; }
+
+.submitButton {
+  background-color: limegreen; }
+
+.submitButton:hover {
+  background: green;
+  transition: background 1000ms linear; }
+
+.submitButton:focus {
+  outline: 0; }
+
+.submitButton:active {
+  position: relative;
+  top: 1px; }
+
+.findButton {
+  background-color: deepskyblue; }
+
+.findButton:hover {
+  background: dodgerblue;
+  transition: background 1ms linear; }
+
+.findButton:focus {
+  outline: 0; }
+
+.findButton:active {
+  top: 1px; }
+
+.spacedButton {
+  margin-left: 0.3em; }
+
+.editButton {
+  background-color: gray;
+  color: black;
+  border: none; }
+
+#searchStates {
+  text-align: center; }
+
+#map {
+  height: 33em;
+  width: 64em;
+  margin-left: auto; }
+
+#shopContainer {
+  background-color: gray; }
+
+.shopImage {
+  height: 6em;
+  width: 8em; }
+
+.currentUserPhoto {
+  height: 6em;
+  width: 6em;
+  border-radius: 50%;
+  padding: 2px; }
+
+.calendar {
+  height: 30em;
+  width: 40em; }
+
+#errorMsg {
+  margin-bottom: 35em; }
+
+#homeTitle, #mainHomeScript {
+  background-color: red; }
+
+.homeH1 {
+  text-align: center;
+  color: white; }
+
+.subheaderH4 {
+  text-align: center;
+  color: white; }
+
+.callToActionText {
+  float: left;
+  margin-top: 15em;
+  margin-left: 6em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background: rgba(0, 0, 0, 0.4); }
+
+.commenterFirstName {
+  color: dodgerblue; }
+
+.commenterFirstName {
+  display: inline-block; }
+
+#map {
+  height: 100%; }
+
+.textarea {
+  height: 5em;
+  width: 35em;
+  border: 1px solid #BFBFBF; }
+
+#map-canvas {
+  width: 400px;
+  height: 400px; }
+
+.forgotPasswordTxt {
+  color: gray; }
+
+.haircutName {
+  font-weight: bold; }
+
+.haircutDetails {
+  color: darkgrey; }
+
+.label {
+  display: inline-block;
+  color: black; }
+
+.acctContainer {
+  border: 1px solid #BFBFBF;
+  padding: 2em;
+  margin-bottom: 1em; }
+
+.barberImage {
+  float: right; }
+
+.homePageImg {
+  background: url(../images/homepageBarber.jpg) no-repeat;
+  height: 900px;
+  width: 100%;
+  background-size: 100% 900px; }
+
+.emptyDiv {
+  height: 3em; }
+
+#contentContainer,
+#hotseatContainer,
+#teamContainer,
+#contactContainer,
+#commentsContainer,
+#pricingContainer {
+  border: 1px solid #BFBFBF;
+  padding: 2em;
+  margin-bottom: 1em; }
+
+@media screen and (max-width: 479px) {
+  #navContainer {
+    background-color: green; }
+  #linkContainer {
+    background-color: green;
+    /*float:right*/ }
+  .floatedLinks {
+    display: block;
+    width: 415px;
+    padding-left: 50px; }
+  .textarea {
+    width: 22em;
+    height: 8em; } }
+
+@media screen and (min-width: 480px) {
+  #navContainer {
+    background-color: blue; }
+  #linkContainer {
+    background-color: transparent;
+    float: right; } }
+
+@media screen and (min-width: 979px) {
+  #navContainer {
+    background-color: #CD5C5C; }
+  #linkContainer {
+    background-color: transparent;
+    float: right; }
+  .homePageImg {
+    background-size: 1200px 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-color: black; } }
