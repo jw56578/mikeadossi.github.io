@@ -38544,12 +38544,12 @@ module.exports = React.createClass({
 			React.createElement(
 				'div',
 				{ id: 'hamburger', className: 'hamburger' },
-				React.createElement('img', { onClick: this.hamboiga, className: 'hamburger-image', src: '../../images/hamburger.png' })
+				React.createElement('img', { onClick: this.hamboiga, className: 'hamburger-image', src: './images/hamburger.png' })
 			),
 			React.createElement(
 				'a',
 				{ href: '', id: 'logo-container' },
-				React.createElement('img', { src: '../../images/logo_pencil.png', className: 'logo' })
+				React.createElement('img', { src: './images/logo_pencil.png', className: 'logo' })
 			),
 			name,
 			React.createElement(
