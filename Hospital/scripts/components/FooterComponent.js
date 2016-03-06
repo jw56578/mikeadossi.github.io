@@ -21,7 +21,7 @@ render:function(){
 					<h3>LOCATION</h3>
 					<ul className="footerUl">
 						<li>100 Northstar street</li>
-						<li>Austin, TX 78701</li>
+						<li>Arlington, TX 78701</li>
 						<li>Phone (817)###-####</li>
 					</ul>
 				</div>

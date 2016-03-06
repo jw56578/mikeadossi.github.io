@@ -32602,7 +32602,7 @@ module.exports = React.createClass({
 					React.createElement(
 						'li',
 						null,
-						'Austin, TX 78701'
+						'Arlington, TX 78701'
 					),
 					React.createElement(
 						'li',
@@ -32942,15 +32942,50 @@ module.exports = React.createClass({
 				{ id: 'pageHeader' },
 				'News & Events'
 			),
+			React.createElement('br', null),
 			React.createElement(
 				'p',
 				null,
-				'Velit animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis, eu vim viris debitis.'
+				'Our Hospital recognized “Mental Health Awareness Month” by hosting a celebration honoring our community’s focus and commitment to providing superior quality healthcare treatment for patients and families with mental, behavioral or chemical dependency needs.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'p',
+				null,
+				'Our Hospital has been a provider of health services in Tarrant County for over 43 years. Highlighting this event was the ribbon cutting for The Excel Center of Arlington’s new Adolescent program, which provides specialized day treatment and school for teens, ages 12-17, with emotional, behavioral and/or chemical dependency needs.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'4th Monday CEUs'
 			),
 			React.createElement(
 				'p',
 				null,
-				'Harum omnes pri ea. Eius legere mediocritatem usu ad, vix cu veri blandit, nec amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque singulis id ius. Impedit veritus deseruisse ad has, percipit iracundia vulputate cu qui.'
+				'This free programming includes clinical cases and/or topics presented by local behavioral health professionals. The purpose of 4th Monday CEUs is to promote collaboration in the community to maximize longer term benefits for patients and families in Tarrant County. All licensed counselors and therapists receive 2 CEUs, a little networking and a light lunch at no charge! To register, please call (817) ###-####.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Granbury CEUs'
+			),
+			React.createElement(
+				'p',
+				null,
+				'Granbury CEUs include clinical cases and/or topics presented by local health care professionals. The purpose of Granbury CEUs is to promote collaboration in the community to maximize longer term benefits for patients and families in Tarrant County. All licensed counselors and therapists receive 2 CEUs, a little networking and a light lunch at no charge! To register, please call (817) ###-####.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Living Connections'
+			),
+			React.createElement(
+				'p',
+				null,
+				'The Excel Center, in conjunction with Advocates for Children of Trauma, hosts Living Connections, a Support Group for parents and guardians of children with emotional and behavioral difficulties. Living Connections Support Group is held at The Excel Center of Fort Worth on the first Monday of every month from 6:00 p.m. – 8:00 p.m.'
 			)
 		);
 	}
