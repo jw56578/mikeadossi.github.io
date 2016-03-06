@@ -114,6 +114,9 @@ li {
   padding:10px;
 }
 
+.addressUl{
+  list-style-type:none;
+}
 
 
 

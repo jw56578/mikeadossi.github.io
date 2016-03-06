@@ -32457,15 +32457,178 @@ module.exports = React.createClass({
 				{ id: 'pageHeader' },
 				'Admissions'
 			),
+			React.createElement('br', null),
 			React.createElement(
 				'p',
 				null,
-				'Velit animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis, eu vim viris debitis.'
+				'We provide various caring options to help people of all ages. Many times problems can be addressed in a less restrictive environment.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'p',
+				null,
+				'All referrals begin with a no-charge assessment by a qualified mental health professional. The assessment concludes with recommendations for treatment. Only a psychiatrist can admit to an inpatient program.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Referral Relations'
 			),
 			React.createElement(
 				'p',
 				null,
-				'Harum omnes pri ea. Eius legere mediocritatem usu ad, vix cu veri blandit, nec amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque singulis id ius. Impedit veritus deseruisse ad has, percipit iracundia vulputate cu qui.'
+				'Our Services Teams view its patient care efforts as an extension of the professional community. We communicate with other referral sources from the outset of the initial communication through treatment and discharge and into aftercare. Our system makes it convenient for the professional community to access services, as we manage clinical information in a confidential but appropriate manner when communicating with other health care professionals.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Access Center Locations'
+			),
+			React.createElement(
+				'p',
+				null,
+				'We have several access center locations – some open 24 hours a day, 7 days a week, staffed with therapists, psychiatric nurses, and psychologists.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'p',
+				null,
+				'Our access centers provide:',
+				React.createElement(
+					'ul',
+					null,
+					React.createElement(
+						'li',
+						null,
+						'Crisis intervention'
+					),
+					React.createElement(
+						'li',
+						null,
+						'Confidential assessments'
+					),
+					React.createElement(
+						'li',
+						null,
+						'Referrals and admissions'
+					),
+					React.createElement(
+						'li',
+						null,
+						'Psychiatric consultations'
+					),
+					React.createElement(
+						'li',
+						null,
+						'Behavioral consultations'
+					),
+					React.createElement(
+						'li',
+						null,
+						'Chemical dependency consultations'
+					),
+					React.createElement(
+						'li',
+						null,
+						'Mental Health Information'
+					),
+					React.createElement(
+						'li',
+						null,
+						'Substance Abuse Information'
+					)
+				)
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Accessment Process'
+			),
+			React.createElement(
+				'p',
+				null,
+				'Following the assessment, the staff of each access center will make referrals for outpatient, partial hospital or inpatient care based on individual treatment needs.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'p',
+				null,
+				'Our access centers can also help families determine the financial resources available for health care costs.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Two Locations:'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Millwood Hospital Access Center'
+			),
+			React.createElement(
+				'p',
+				null,
+				'1000 North Cooper Street',
+				React.createElement('br', null),
+				'Arlington, TX 76011',
+				React.createElement('br', null),
+				'Phone: 817-###-####'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Weatherford Access Center'
+			),
+			React.createElement(
+				'p',
+				null,
+				'200 Fort Worth Highway STE: 125',
+				React.createElement('br', null),
+				'Weatherford, TX 76086',
+				React.createElement('br', null),
+				'Phone: 817-###-####'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'p',
+				null,
+				'Assessments available 24 hours a day, 7 days a week, for children, adolescents, adults and seniors.'
+			),
+			React.createElement(
+				'p',
+				null,
+				'Specialty programs include:'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'ul',
+				null,
+				React.createElement(
+					'li',
+					null,
+					'Faith'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Trauma'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Generations'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Partial Hospitalization and Intensive Outpatient (PHP/IOP)'
+				)
 			)
 		);
 	}
