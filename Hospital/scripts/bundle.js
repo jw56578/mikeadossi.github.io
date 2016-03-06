@@ -32658,9 +32658,9 @@ module.exports = React.createClass({
 						React.createElement(
 							'h2',
 							null,
-							'header'
+							'Providing Quality care'
 						),
-						'animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis'
+						'We have been dedicated to helping children, adolescents, adults and senior adults with psychiatric or substance abuse problems. Offering a wide range of treatment options, Millwood Hospital provides specialized behavioral health care for special people.'
 					),
 					React.createElement('img', { src: 'images/staff.jpg', border: '0', alt: 'staff' })
 				),
@@ -32674,9 +32674,9 @@ module.exports = React.createClass({
 						React.createElement(
 							'h2',
 							null,
-							'header 2'
+							'Top performer for your family'
 						),
-						'animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis'
+						'Millwood Hospital has been named Top Performer on Key Quality Measures® by The Joint Commission, the leading accreditor of health care organizations in America.'
 					),
 					React.createElement('img', { src: 'images/family.jpeg', border: '0', alt: 'family' })
 				),
@@ -32690,9 +32690,9 @@ module.exports = React.createClass({
 						React.createElement(
 							'h2',
 							null,
-							'header 3'
+							'We believe in people'
 						),
-						'animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis'
+						'We understand that crisis can occur at any hour. That’s why our Rapid Assessment/Rapid Intake process is so important. Once we have been contacted, help begins in a matter of minutes – not days or weeks.'
 					),
 					React.createElement('img', { src: 'images/elder.jpg', border: '0', alt: 'elder' })
 				)
@@ -32708,12 +32708,7 @@ module.exports = React.createClass({
 			React.createElement(
 				'p',
 				null,
-				'Velit animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis, eu vim viris debitis.'
-			),
-			React.createElement(
-				'p',
-				null,
-				'Harum omnes pri ea. Eius legere mediocritatem usu ad, vix cu veri blandit, nec amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque singulis id ius. Impedit veritus deseruisse ad has, percipit iracundia vulputate cu qui.'
+				'Located in Arlington, Texas, our hospital is a 122-bed facility that provides inpatient and outpatient mental health and chemical dependency (substance abuse) care to children, adolescents, adults and older adults. We are a TRICARE®-approved and certified facility.'
 			),
 			React.createElement('hr', null),
 			React.createElement(

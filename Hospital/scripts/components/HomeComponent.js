@@ -15,17 +15,17 @@ render:function(){
 			<div className="jQuery slider">
 				<div id="1" className="sliderDivs">
 					<span className="imgDescription"></span>
-					<span className="sliderText"><h2>header</h2>animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis</span>
+					<span className="sliderText"><h2>Providing Quality care</h2>We have been dedicated to helping children, adolescents, adults and senior adults with psychiatric or substance abuse problems. Offering a wide range of treatment options, Millwood Hospital provides specialized behavioral health care for special people.</span>
 					<img src="images/staff.jpg" border="0" alt="staff" />
 				</div>
 				<div id="2" className="sliderDivs">
 					<span className="imgDescription"></span>
-					<span className="sliderText"><h2>header 2</h2>animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis</span>
+					<span className="sliderText"><h2>Top performer for your family</h2>Millwood Hospital has been named Top Performer on Key Quality Measures® by The Joint Commission, the leading accreditor of health care organizations in America.</span>
 					<img src="images/family.jpeg" border="0" alt="family" />
 				</div>
 				<div id="3" className="sliderDivs">
 					<span className="imgDescription"></span>
-					<span className="sliderText"><h2>header 3</h2>animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis</span>
+					<span className="sliderText"><h2>We believe in people</h2>We understand that crisis can occur at any hour. That’s why our Rapid Assessment/Rapid Intake process is so important. Once we have been contacted, help begins in a matter of minutes – not days or weeks.</span>
 					<img  src="images/elder.jpg" border="0" alt="elder" />
 				</div>
 			</div>
@@ -36,10 +36,7 @@ render:function(){
 			</div>
 			<hr/>
 			<p>
-				Velit animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis, eu vim viris debitis.
-			</p>
-			<p>
-				Harum omnes pri ea. Eius legere mediocritatem usu ad, vix cu veri blandit, nec amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque singulis id ius. Impedit veritus deseruisse ad has, percipit iracundia vulputate cu qui.
+				Located in Arlington, Texas, our hospital is a 122-bed facility that provides inpatient and outpatient mental health and chemical dependency (substance abuse) care to children, adolescents, adults and older adults. We are a TRICARE®-approved and certified facility.
 			</p>
 			<hr/>
 			<div className="container">
