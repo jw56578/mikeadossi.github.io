@@ -40,7 +40,8 @@ li {
   text-align: left; }
 
 #pageHeader {
-  background-color: lightgrey; }
+  background-color: lightgrey;
+  padding:0.5em; }
 
 #componentContainer {
   padding: 0 3em 2em 3em; }

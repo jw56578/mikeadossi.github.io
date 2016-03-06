@@ -32394,15 +32394,44 @@ module.exports = React.createClass({
 				{ id: 'pageHeader' },
 				'About Us'
 			),
+			React.createElement('br', null),
 			React.createElement(
 				'p',
 				null,
-				'Velit animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis, eu vim viris debitis.'
+				'Our Hospital, located in Arlington, Texas, is a 122-bed facility that provides inpatient and outpatient mental health and chemical dependency care. Since 1971, children, adolescents, adults and older adults have relied on our Hospital’s extensive and confidential services to help overcome emotional and chemical dependency problems.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Goals and Care'
 			),
 			React.createElement(
 				'p',
 				null,
-				'Harum omnes pri ea. Eius legere mediocritatem usu ad, vix cu veri blandit, nec amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque singulis id ius. Impedit veritus deseruisse ad has, percipit iracundia vulputate cu qui.'
+				'Our goal is to help individuals address mental health and chemical dependency problems successfully. We offer specialized care for special people.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Assessment Process'
+			),
+			React.createElement(
+				'p',
+				null,
+				'Our “Rapid Assessment / Rapid Intake” process distinguishes us from many other hospitals. Once Hospital is contacted, help begins in a matter of minutes — not days or weeks — beginning with a no-charge assessment by a qualified mental health professional. We provide assessments for individuals of all ages, 24 hours a day/ 7 days a week.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Comments and Concerns'
+			),
+			React.createElement(
+				'p',
+				null,
+				'If you have a concern about services, please contact hospital administration at 817-###-####.'
 			)
 		);
 	}
