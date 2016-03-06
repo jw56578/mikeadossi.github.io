@@ -68,7 +68,8 @@ li {
 
 .col-sm-12 {
   border: 1px solid rgba(86, 61, 124, 0.2);
-  padding: 0.7em; }
+  padding: 0.7em;
+  height:22em; }
 
 .bottomLinkHeading {
   text-align: center; }

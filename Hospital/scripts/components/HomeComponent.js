@@ -36,7 +36,7 @@ render:function(){
 			</div>
 			<hr/>
 			<p>
-				Located in Arlington, Texas, our hospital is a 122-bed facility that provides inpatient and outpatient mental health and chemical dependency (substance abuse) care to children, adolescents, adults and older adults. We are a TRICARE®-approved and certified facility.
+				Located in Austin, Texas, our hospital is a 122-bed facility that provides inpatient and outpatient mental health and chemical dependency (substance abuse) care to children, adolescents, adults and older adults. We are a TRICARE®-approved and certified facility.
 			</p>
 			<hr/>
 			<div className="container">
@@ -45,21 +45,21 @@ render:function(){
 						<span className="col-sm-12">
 							<img className="homeImages" src="images/events.jpeg"></img>
 							<a href="#"><h4 className="bottomLinkHeading">Events</h4></a>
-							<p className="textBelowHomeImages">Amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque </p>
+							<p className="textBelowHomeImages">We offer support groups, CEUs for professionals and a variety of other events! </p>
 						</span>
 					</span>
 					<span className="col-sm-4">
 						<span className="col-sm-12">
 							<img className="homeImages" src="images/referral.jpg"></img>
 							<a href="#"><h4 className="bottomLinkHeading">Referrals</h4></a>
-							<p className="textBelowHomeImages">Amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque </p>
+							<p className="textBelowHomeImages">We manage clinical information in a confidential but appropriate manner when communicating with other health care professionals. To make a referral, please call (817) ###-####. </p>
 						</span>
 					</span>
 					<span className="col-sm-4">
 						<span className="col-sm-12">
 							<img className="homeImages" src="images/2WomenConversing.jpg"></img>
 							<a href="#"><h4 className="bottomLinkHeading">Patient Satisfaction</h4></a>
-							<p className="textBelowHomeImages">Amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque </p>
+							<p className="textBelowHomeImages">We are proud that our families have some very nice things to say about our staff and the treatment they received. </p>
 						</span>
 					</span>
 				</div>

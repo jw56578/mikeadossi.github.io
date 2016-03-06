@@ -32602,7 +32602,7 @@ module.exports = React.createClass({
 					React.createElement(
 						'li',
 						null,
-						'Austin, TX 70000'
+						'Austin, TX 78701'
 					),
 					React.createElement(
 						'li',
@@ -32619,7 +32619,7 @@ module.exports = React.createClass({
 			React.createElement(
 				'div',
 				{ className: 'footerCopyright' },
-				'Copyright 2016'
+				'Copyrght © 2016'
 			)
 		);
 	}
@@ -32708,7 +32708,7 @@ module.exports = React.createClass({
 			React.createElement(
 				'p',
 				null,
-				'Located in Arlington, Texas, our hospital is a 122-bed facility that provides inpatient and outpatient mental health and chemical dependency (substance abuse) care to children, adolescents, adults and older adults. We are a TRICARE®-approved and certified facility.'
+				'Located in Austin, Texas, our hospital is a 122-bed facility that provides inpatient and outpatient mental health and chemical dependency (substance abuse) care to children, adolescents, adults and older adults. We are a TRICARE®-approved and certified facility.'
 			),
 			React.createElement('hr', null),
 			React.createElement(
@@ -32736,7 +32736,7 @@ module.exports = React.createClass({
 							React.createElement(
 								'p',
 								{ className: 'textBelowHomeImages' },
-								'Amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque '
+								'We offer support groups, CEUs for professionals and a variety of other events! '
 							)
 						)
 					),
@@ -32759,7 +32759,7 @@ module.exports = React.createClass({
 							React.createElement(
 								'p',
 								{ className: 'textBelowHomeImages' },
-								'Amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque '
+								'We manage clinical information in a confidential but appropriate manner when communicating with other health care professionals. To make a referral, please call (817) ###-####. '
 							)
 						)
 					),
@@ -32782,7 +32782,7 @@ module.exports = React.createClass({
 							React.createElement(
 								'p',
 								{ className: 'textBelowHomeImages' },
-								'Amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque '
+								'We are proud that our families have some very nice things to say about our staff and the treatment they received. '
 							)
 						)
 					)
