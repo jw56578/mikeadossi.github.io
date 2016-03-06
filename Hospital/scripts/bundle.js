@@ -32950,6 +32950,26 @@ module.exports = React.createClass({
 			),
 			React.createElement('br', null),
 			React.createElement(
+				'div',
+				{ className: 'dotBorders' },
+				React.createElement(
+					'h5',
+					null,
+					'Upcoming Events'
+				),
+				React.createElement(
+					'a',
+					{ href: '#' },
+					'Humor in Psychotheraphy with Bryan C Duncan, MA, MS, LPC-S, NCC '
+				),
+				React.createElement(
+					'p',
+					null,
+					'Friday March 11, 2016 from 10:00 AM to 12:00 PM CST Bryan C. Duncan, MA, MS, LPC-S, NCC has been working in the mental health field for over ten years. Bryan will share how the use of humor can be used not only as a teaching tool, but also as a therapeutic method to connect to clients and illustrate points. We hope you can join us. You will receive 2 free CEUs and a light breakfast will be served.'
+				)
+			),
+			React.createElement('br', null),
+			React.createElement(
 				'p',
 				null,
 				'Our Hospital has been a provider of health services in Tarrant County for over 43 years. Highlighting this event was the ribbon cutting for The Excel Center of Arlington’s new Adolescent program, which provides specialized day treatment and school for teens, ages 12-17, with emotional, behavioral and/or chemical dependency needs.'

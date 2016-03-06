@@ -13,6 +13,15 @@ render:function(){
 				Our Hospital recognized “Mental Health Awareness Month” by hosting a celebration honoring our community’s focus and commitment to providing superior quality healthcare treatment for patients and families with mental, behavioral or chemical dependency needs.
 			</p>
 			<br/>
+			<div className="dotBorders">
+				<h5>Upcoming Events</h5>
+				<a href="#">Humor in Psychotheraphy with Bryan C Duncan, MA, MS, LPC-S, NCC </a>
+				<p>
+					Friday March 11, 2016 from 10:00 AM to 12:00 PM CST
+					Bryan C. Duncan, MA, MS, LPC-S, NCC has been working in the mental health field for over ten years. Bryan will share how the use of humor can be used not only as a teaching tool, but also as a therapeutic method to connect to clients and illustrate points. We hope you can join us. You will receive 2 free CEUs and a light breakfast will be served.
+				</p>
+			</div>
+			<br/>
 			<p>
 
 				Our Hospital has been a provider of health services in Tarrant County for over 43 years. Highlighting this event was the ribbon cutting for The Excel Center of Arlington’s new Adolescent program, which provides specialized day treatment and school for teens, ages 12-17, with emotional, behavioral and/or chemical dependency needs.
