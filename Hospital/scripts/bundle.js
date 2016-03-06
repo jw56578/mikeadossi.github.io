@@ -32654,15 +32654,117 @@ module.exports = React.createClass({
 				{ id: 'pageHeader' },
 				'Careers'
 			),
+			React.createElement('br', null),
 			React.createElement(
 				'p',
 				null,
-				'Velit animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis, eu vim viris debitis.'
+				'Thank you for your interest in a career with Millwood Hospital. Send your resume to careers@hospital.com.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h4',
+				null,
+				'Five Reasons to Join out Team'
+			),
+			React.createElement(
+				'h5',
+				null,
+				'Impacting lives every day'
 			),
 			React.createElement(
 				'p',
 				null,
-				'Harum omnes pri ea. Eius legere mediocritatem usu ad, vix cu veri blandit, nec amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque singulis id ius. Impedit veritus deseruisse ad has, percipit iracundia vulputate cu qui.'
+				'The rewards that come from serving people in need are plentiful.   There comes a sense of satisfaction when helping patients who are in crisis and need a very special type of connection to their healthcare provider. You can also feel a part of the area healthcare network and a sense of pride in giving back to those in our community.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Opportunities for Career Advancement'
+			),
+			React.createElement(
+				'p',
+				null,
+				'When you join the staff at Millwood Hospital, you have the opportunity to participate and grow through advancement opportunities. We believe in promoting from within the organization and offer mentorship programs and progressive career paths in many areas.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Friendly and Warm Place to Work'
+			),
+			React.createElement(
+				'p',
+				null,
+				'A place that feels friendly can mean the world to both patients and employees. Fostering a relaxed atmosphere leads to greater productivity and inspires great work for everyone!'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Great location'
+			),
+			React.createElement(
+				'p',
+				null,
+				'We are located between Dallas and Fort Worth and just fifteen minutes from DFW International Airport, in Tarrant County, off of Interstate 30 and N. Cooper Street (less than 1 mile from AT & T Stadium, home of the Dallas Cowboys football team, Globe Life Park, home of the Texas Rangers baseball club, Six Flags Over Texas and the University of Texas at Arlington).'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h5',
+				null,
+				'Competitive Pay and Benefits'
+			),
+			React.createElement(
+				'p',
+				null,
+				'Millwood Hospital offers employees competitive salaries, professional working conditions and an exceptional benefits plan. Our flexible benefits plan lets you select a package of benefits that are right for you and your family.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'p',
+				null,
+				'Other benefits include:'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'ul',
+				null,
+				React.createElement(
+					'li',
+					null,
+					'Tuition reimbursement and continuing education credits'
+				),
+				React.createElement(
+					'li',
+					null,
+					'401 (k) match'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Paid time off'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Hospital sponsored employees activities'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Employee assistance program (EAP)'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Free parking'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Cafeteria discounts'
+				)
 			)
 		);
 	}
