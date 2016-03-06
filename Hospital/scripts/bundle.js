@@ -33138,11 +33138,30 @@ module.exports = React.createClass({
 						{ className: 'nav navbar-nav navbar-right' },
 						React.createElement(
 							'li',
-							null,
+							{ className: 'dropdown' },
 							React.createElement(
 								'a',
-								{ href: '#about' },
-								'ABOUT US'
+								{ className: 'dropdown-toggle', 'data-toggle': 'dropdown', id: 'aboutLink', className: 'navLinks', href: '#about' },
+								'ABOUT US',
+								React.createElement('b', { className: 'caret' })
+							),
+							React.createElement(
+								'ul',
+								{ className: 'dropdown-menu' },
+								React.createElement(
+									'li',
+									{ className: 'dropdown-header' },
+									'Who we are'
+								),
+								React.createElement(
+									'li',
+									null,
+									React.createElement(
+										'a',
+										{ href: '#careers' },
+										'Careers'
+									)
+								)
 							)
 						),
 						React.createElement(

@@ -20,7 +20,13 @@ render:function(){
 					</div>
 					<div id="linksContainer" className="navbar-collapse collapse">
 						<ul className="nav navbar-nav navbar-right">
-							<li><a href="#about">ABOUT US</a></li>
+							<li className="dropdown">
+								<a className="dropdown-toggle" data-toggle="dropdown" id="aboutLink" className="navLinks" href="#about">ABOUT US<b className="caret"></b></a>
+								<ul className="dropdown-menu">
+									<li className="dropdown-header">Who we are</li>
+									<li><a href="#careers">Careers</a></li>
+								</ul>
+							</li>
 							<li className="dropdown">
 								<a className="dropdown-toggle" data-toggle="dropdown" id="programsLink" className="navLinks" href="#programsAndServices">PROGRAMS & SERVICES<b className="caret"></b></a>
 								<ul className="dropdown-menu">
