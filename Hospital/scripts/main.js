@@ -14,6 +14,7 @@ var ContactComponent = require('./components/ContactComponent');
 var NewsAndEventsComponent = require('./components/NewsAndEventsComponent');
 var SiteMapComponent = require('./components/SiteMapComponent');
 var CareersComponent = require('./components/CareersComponent');
+var SearchResultsComponent = require('./components/SearchResultsComponent');
 
 ReactDOM.render(
 	 <NavComponent/>,
@@ -30,7 +31,8 @@ var Router = Backbone.Router.extend({
 		'contact':'contactFunction',
 		'newsAndEvents':'newsAndEventsFunction',
 		'siteMap':'siteMapFunction',
-		'careers':'careersFunction'
+		'careers':'careersFunction',
+		'searchResults':'searchResultsFunction'
 
 	},
 	home:function(){
@@ -78,6 +80,12 @@ var Router = Backbone.Router.extend({
 	careersFunction:function(){
 		ReactDOM.render(
 		 <CareersComponent/>,
+		document.getElementById('app')
+		);
+	},
+	searchResultsFunction:function(){
+		ReactDOM.render(
+		<SearchResultsComponent/>,
 		document.getElementById('app')
 		);
 	}

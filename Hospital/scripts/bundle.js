@@ -32831,6 +32831,20 @@ module.exports = React.createClass({
 var React = require('react');
 var Backbone = require('backbone');
 
+/*
+var $formSubmitButton = require('.formSubmitButton');
+var $firstNameWarning = require('.firstNameWarning');
+var $firstName = require('.firstName')
+
+$formSubmitButton.on("click", function(){
+	var valid = true;
+	if($firstName.val().length === 0){
+		$firstNameWarning.show();
+		valid = false;
+	}
+})
+*/
+
 module.exports = React.createClass({
 	displayName: 'exports',
 
@@ -34097,6 +34111,54 @@ module.exports = React.createClass({
 					React.createElement(
 						'h2',
 						null,
+						'Search Results'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderRightContainer' },
+					React.createElement('input', { placeholder: 'Search Website' }),
+					React.createElement(
+						'button',
+						null,
+						React.createElement('i', { className: 'fa fa-search' })
+					)
+				)
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'p',
+				null,
+				'Hola'
+			)
+		);
+	}
+
+});
+
+},{"backbone":1,"react":161}],172:[function(require,module,exports){
+'use strict';
+
+var React = require('react');
+var Backbone = require('backbone');
+
+module.exports = React.createClass({
+	displayName: 'exports',
+
+	render: function render() {
+
+		return React.createElement(
+			'div',
+			{ id: 'componentContainer' },
+			React.createElement(
+				'div',
+				{ className: 'pageHeaderContainer' },
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderLeftContainer' },
+					React.createElement(
+						'h2',
+						null,
 						'Site Map'
 					)
 				),
@@ -34126,7 +34188,7 @@ module.exports = React.createClass({
 
 });
 
-},{"backbone":1,"react":161}],172:[function(require,module,exports){
+},{"backbone":1,"react":161}],173:[function(require,module,exports){
 'use strict';
 
 var React = require('react');
@@ -34143,6 +34205,7 @@ var ContactComponent = require('./components/ContactComponent');
 var NewsAndEventsComponent = require('./components/NewsAndEventsComponent');
 var SiteMapComponent = require('./components/SiteMapComponent');
 var CareersComponent = require('./components/CareersComponent');
+var SearchResultsComponent = require('./components/SearchResultsComponent');
 
 ReactDOM.render(React.createElement(NavComponent, null), document.getElementById('nav'));
 
@@ -34156,7 +34219,8 @@ var Router = Backbone.Router.extend({
 		'contact': 'contactFunction',
 		'newsAndEvents': 'newsAndEventsFunction',
 		'siteMap': 'siteMapFunction',
-		'careers': 'careersFunction'
+		'careers': 'careersFunction',
+		'searchResults': 'searchResultsFunction'
 
 	},
 	home: function home() {
@@ -34182,6 +34246,9 @@ var Router = Backbone.Router.extend({
 	},
 	careersFunction: function careersFunction() {
 		ReactDOM.render(React.createElement(CareersComponent, null), document.getElementById('app'));
+	},
+	searchResultsFunction: function searchResultsFunction() {
+		ReactDOM.render(React.createElement(SearchResultsComponent, null), document.getElementById('app'));
 	}
 
 });
@@ -34195,7 +34262,7 @@ console.log(FooterComponent);
 
 $(document).ready(function () {});
 
-},{"./components/AboutComponent":162,"./components/AdmissionsComponent":163,"./components/CareersComponent":164,"./components/ContactComponent":165,"./components/FooterComponent":166,"./components/HomeComponent":167,"./components/NavComponent":168,"./components/NewsAndEventsComponent":169,"./components/ProgramsAndServicesComponent":170,"./components/SiteMapComponent":171,"backbone":1,"react":161,"react-dom":5}]},{},[172])
+},{"./components/AboutComponent":162,"./components/AdmissionsComponent":163,"./components/CareersComponent":164,"./components/ContactComponent":165,"./components/FooterComponent":166,"./components/HomeComponent":167,"./components/NavComponent":168,"./components/NewsAndEventsComponent":169,"./components/ProgramsAndServicesComponent":170,"./components/SearchResultsComponent":171,"./components/SiteMapComponent":172,"backbone":1,"react":161,"react-dom":5}]},{},[173])
 
 
 //# sourceMappingURL=bundle.js.map
