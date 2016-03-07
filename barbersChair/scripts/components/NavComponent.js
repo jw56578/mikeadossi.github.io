@@ -50,7 +50,7 @@ module.exports = React.createClass({
 			loggedButton = <a href="/#logOut" >Log Out</a>
 		}
 		else{
-			loggedButton = <a href="/#logIn">Log In</a>
+			loggedButton = <a href="http://mikeadossi.github.io/mikeadossi.github.io/barbersChair/#logIn">Log In</a>
 		}
 
 		if(currentUser){
@@ -81,7 +81,7 @@ module.exports = React.createClass({
 		if(currentUser && currentUser.get('userType')=='owner'){
 			accountLink = <a href="/#ownerAccount"><span className="floatedLinks"> </span></a> 
 		} else if(currentUser && currentUser.get('userType')=='customer'){
-			accountLink = <a href="/#userAccount"><span className="floatedLinks">Sign Up</span></a>
+			accountLink = <a href="http://mikeadossi.github.io/mikeadossi.github.io/barbersChair/#userAccount"><span className="floatedLinks">Sign Up</span></a>
 		}		
 		var favoritesHtml = [];
 		var selectDefault = [<option>select</option>];
@@ -105,7 +105,7 @@ module.exports = React.createClass({
 				        <span className="icon-bar"></span>
 				        <span className="icon-bar"></span> 
 				      </button>
-				      <a className="navbar-brand" href="/">BarbersChair</a>
+				      <a className="navbar-brand" href="http://mikeadossi.github.io/mikeadossi.github.io/barbersChair">BarbersChair</a>
 				    </div>
 
 				    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -114,8 +114,8 @@ module.exports = React.createClass({
 				      <ul className="nav navbar-nav navbar-right">
 				      	{favoriteSelect}
 				      	<li>{accountButton}</li>
-				        <li><a href="/#about">About</a></li>
-				        <li><a href="/#contact">Contact</a></li>
+				        <li><a href="http://mikeadossi.github.io/mikeadossi.github.io/barbersChair/#about">About</a></li>
+				        <li><a href="http://mikeadossi.github.io/mikeadossi.github.io/barbersChair/#contact">Contact</a></li>
 				        <li>{loggedButton}</li>
 						<li>{signedUpButton}</li>
 				      </ul>

@@ -33236,7 +33236,7 @@ module.exports = React.createClass({
 		} else {
 			loggedButton = React.createElement(
 				'a',
-				{ href: '/#logIn' },
+				{ href: 'http://mikeadossi.github.io/mikeadossi.github.io/barbersChair/#logIn' },
 				'Log In'
 			);
 		}
@@ -33299,7 +33299,7 @@ module.exports = React.createClass({
 		} else if (currentUser && currentUser.get('userType') == 'customer') {
 			accountLink = React.createElement(
 				'a',
-				{ href: '/#userAccount' },
+				{ href: 'http://mikeadossi.github.io/mikeadossi.github.io/barbersChair/#userAccount' },
 				React.createElement(
 					'span',
 					{ className: 'floatedLinks' },
@@ -33361,7 +33361,7 @@ module.exports = React.createClass({
 					),
 					React.createElement(
 						'a',
-						{ className: 'navbar-brand', href: '/' },
+						{ className: 'navbar-brand', href: 'http://mikeadossi.github.io/mikeadossi.github.io/barbersChair' },
 						'BarbersChair'
 					)
 				),
@@ -33383,7 +33383,7 @@ module.exports = React.createClass({
 							null,
 							React.createElement(
 								'a',
-								{ href: '/#about' },
+								{ href: 'http://mikeadossi.github.io/mikeadossi.github.io/barbersChair/#about' },
 								'About'
 							)
 						),
@@ -33392,7 +33392,7 @@ module.exports = React.createClass({
 							null,
 							React.createElement(
 								'a',
-								{ href: '/#contact' },
+								{ href: 'http://mikeadossi.github.io/mikeadossi.github.io/barbersChair/#contact' },
 								'Contact'
 							)
 						),
