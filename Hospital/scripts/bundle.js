@@ -32954,7 +32954,265 @@ module.exports = React.createClass({
 										'*'
 									)
 								),
-								React.createElement('input', { className: 'fiftyPercentInputs' })
+								React.createElement(
+									'select',
+									{ name: 'state' },
+									React.createElement(
+										'option',
+										{ value: 'AL' },
+										'Alabama'
+									),
+									React.createElement(
+										'option',
+										{ value: 'AK' },
+										'Alaska'
+									),
+									React.createElement(
+										'option',
+										{ value: 'AZ' },
+										'Arizona'
+									),
+									React.createElement(
+										'option',
+										{ value: 'AR' },
+										'Arkansas'
+									),
+									React.createElement(
+										'option',
+										{ value: 'CA' },
+										'California'
+									),
+									React.createElement(
+										'option',
+										{ value: 'CO' },
+										'Colorado'
+									),
+									React.createElement(
+										'option',
+										{ value: 'CT' },
+										'Connecticut'
+									),
+									React.createElement(
+										'option',
+										{ value: 'DE' },
+										'Delaware'
+									),
+									React.createElement(
+										'option',
+										{ value: 'DC' },
+										'District of Columbia'
+									),
+									React.createElement(
+										'option',
+										{ value: 'FL' },
+										'Florida'
+									),
+									React.createElement(
+										'option',
+										{ value: 'GA' },
+										'Georgia'
+									),
+									React.createElement(
+										'option',
+										{ value: 'HI' },
+										'Hawaii'
+									),
+									React.createElement(
+										'option',
+										{ value: 'ID' },
+										'Idaho'
+									),
+									React.createElement(
+										'option',
+										{ value: 'IL' },
+										'Illinois'
+									),
+									React.createElement(
+										'option',
+										{ value: 'IN' },
+										'Indiana'
+									),
+									React.createElement(
+										'option',
+										{ value: 'IA' },
+										'Iowa'
+									),
+									React.createElement(
+										'option',
+										{ value: 'KS' },
+										'Kansas'
+									),
+									React.createElement(
+										'option',
+										{ value: 'KY' },
+										'Kentucky'
+									),
+									React.createElement(
+										'option',
+										{ value: 'LA' },
+										'Louisiana'
+									),
+									React.createElement(
+										'option',
+										{ value: 'ME' },
+										'Maine'
+									),
+									React.createElement(
+										'option',
+										{ value: 'MD' },
+										'Maryland'
+									),
+									React.createElement(
+										'option',
+										{ value: 'MA' },
+										'Massachusetts'
+									),
+									React.createElement(
+										'option',
+										{ value: 'MI' },
+										'Michigan'
+									),
+									React.createElement(
+										'option',
+										{ value: 'MN' },
+										'Minnesota'
+									),
+									React.createElement(
+										'option',
+										{ value: 'MS' },
+										'Mississippi'
+									),
+									React.createElement(
+										'option',
+										{ value: 'MO' },
+										'Missouri'
+									),
+									React.createElement(
+										'option',
+										{ value: 'MT' },
+										'Montana'
+									),
+									React.createElement(
+										'option',
+										{ value: 'NE' },
+										'Nebraska'
+									),
+									React.createElement(
+										'option',
+										{ value: 'NV' },
+										'Nevada'
+									),
+									React.createElement(
+										'option',
+										{ value: 'NH' },
+										'New Hampshire'
+									),
+									React.createElement(
+										'option',
+										{ value: 'NJ' },
+										'New Jersey'
+									),
+									React.createElement(
+										'option',
+										{ value: 'NM' },
+										'New Mexico'
+									),
+									React.createElement(
+										'option',
+										{ value: 'NY' },
+										'New York'
+									),
+									React.createElement(
+										'option',
+										{ value: 'NC' },
+										'North Carolina'
+									),
+									React.createElement(
+										'option',
+										{ value: 'ND' },
+										'North Dakota'
+									),
+									React.createElement(
+										'option',
+										{ value: 'OH' },
+										'Ohio'
+									),
+									React.createElement(
+										'option',
+										{ value: 'OK' },
+										'Oklahoma'
+									),
+									React.createElement(
+										'option',
+										{ value: 'OR' },
+										'Oregon'
+									),
+									React.createElement(
+										'option',
+										{ value: 'PA' },
+										'Pennsylvania'
+									),
+									React.createElement(
+										'option',
+										{ value: 'RI' },
+										'Rhode Island'
+									),
+									React.createElement(
+										'option',
+										{ value: 'SC' },
+										'South Carolina'
+									),
+									React.createElement(
+										'option',
+										{ value: 'SD' },
+										'South Dakota'
+									),
+									React.createElement(
+										'option',
+										{ value: 'TN' },
+										'Tennessee'
+									),
+									React.createElement(
+										'option',
+										{ value: 'TX' },
+										'Texas'
+									),
+									React.createElement(
+										'option',
+										{ value: 'UT' },
+										'Utah'
+									),
+									React.createElement(
+										'option',
+										{ value: 'VT' },
+										'Vermont'
+									),
+									React.createElement(
+										'option',
+										{ value: 'VA' },
+										'Virginia'
+									),
+									React.createElement(
+										'option',
+										{ value: 'WA' },
+										'Washington'
+									),
+									React.createElement(
+										'option',
+										{ value: 'WV' },
+										'West Virginia'
+									),
+									React.createElement(
+										'option',
+										{ value: 'WI' },
+										'Wisconsin'
+									),
+									React.createElement(
+										'option',
+										{ value: 'WY' },
+										'Wyoming'
+									)
+								)
 							),
 							React.createElement(
 								'div',
