@@ -52,19 +52,19 @@ li{
 .pageHeaderContainer{
   background-color:lightgrey;
   padding:0.5em;
+  display:block;
+  width:100%;
 }
 
-.pageHeader{
-  width:50%;
-}
-
-.searchWebsite{
-}
-
-.searchContainer{
-  float:right;
-  width:50%;
+.pageHeaderLeftContainer{
   display:inline-block;
+  width:50%;
+}
+
+.pageHeaderRightContainer{
+  display:inline-block;
+  width:50%;
+  text-align:right;
 }
 
 #componentContainer{

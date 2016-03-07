@@ -8,9 +8,13 @@ render:function(){
 	return(
 			<div id="componentContainer">
 				<div className="pageHeaderContainer">
-					<h2>Contact</h2>
-					<input placeholder="Search Website"></input>
-					<button><i className="fa fa-search"></i></button>
+					<div className="pageHeaderLeftContainer">
+						<h2>Contact</h2>
+					</div>
+					<div className="pageHeaderRightContainer">
+						<input placeholder="Search Website"></input>
+						<button><i className="fa fa-search"></i></button>
+					</div>
 				</div>
 
 				<br/>

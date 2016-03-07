@@ -32789,15 +32789,23 @@ module.exports = React.createClass({
 				'div',
 				{ className: 'pageHeaderContainer' },
 				React.createElement(
-					'h2',
-					null,
-					'Contact'
+					'div',
+					{ className: 'pageHeaderLeftContainer' },
+					React.createElement(
+						'h2',
+						null,
+						'Contact'
+					)
 				),
-				React.createElement('input', { placeholder: 'Search Website' }),
 				React.createElement(
-					'button',
-					null,
-					React.createElement('i', { className: 'fa fa-search' })
+					'div',
+					{ className: 'pageHeaderRightContainer' },
+					React.createElement('input', { placeholder: 'Search Website' }),
+					React.createElement(
+						'button',
+						null,
+						React.createElement('i', { className: 'fa fa-search' })
+					)
 				)
 			),
 			React.createElement('br', null),

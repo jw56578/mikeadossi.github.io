@@ -41,15 +41,18 @@ li {
 
 .pageHeaderContainer {
   background-color: lightgrey;
-  padding: 0.5em; }
+  padding: 0.5em;
+  display: block;
+  width: 100%; }
 
-.pageHeader {
+.pageHeaderLeftContainer {
+  display: inline-block;
   width: 50%; }
 
-.searchContainer {
-  float: right;
+.pageHeaderRightContainer {
+  display: inline-block;
   width: 50%;
-  display: inline-block; }
+  text-align: right; }
 
 #componentContainer {
   padding: 0 3em 2em 3em; }
