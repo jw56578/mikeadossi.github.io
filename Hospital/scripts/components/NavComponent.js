@@ -26,6 +26,7 @@ render:function(){
 									<li className="dropdown-header">Who we are</li>
 									<li><a href="#about">About</a></li>
 									<li><a href="#careers">Careers</a></li>
+									<li><a href="#physicians">Physicians</a></li>
 								</ul>
 							</li>
 							<li className="dropdown">
