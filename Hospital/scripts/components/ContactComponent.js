@@ -125,8 +125,15 @@ render:function(){
 								<input className="fiftyPercentInputs"></input>
 							</div>
 						</div>
-
+						<br/>
 						<p>How can we assist you?</p>
+						<select>
+							<option>More Information</option>
+							<option value="">Seeking treatment for myself</option>
+							<option value="">Seeking treatment for my child</option>
+							<option value="">Seeking treatment for my family/friend</option>
+							<option value="">Seeking treatment for my client/patient</option>
+						</select>
 					</form>
 				</div>
 			</div>

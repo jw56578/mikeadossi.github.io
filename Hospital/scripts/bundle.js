@@ -33230,10 +33230,40 @@ module.exports = React.createClass({
 								React.createElement('input', { className: 'fiftyPercentInputs' })
 							)
 						),
+						React.createElement('br', null),
 						React.createElement(
 							'p',
 							null,
 							'How can we assist you?'
+						),
+						React.createElement(
+							'select',
+							null,
+							React.createElement(
+								'option',
+								null,
+								'More Information'
+							),
+							React.createElement(
+								'option',
+								{ value: '' },
+								'Seeking treatment for myself'
+							),
+							React.createElement(
+								'option',
+								{ value: '' },
+								'Seeking treatment for my child'
+							),
+							React.createElement(
+								'option',
+								{ value: '' },
+								'Seeking treatment for my family/friend'
+							),
+							React.createElement(
+								'option',
+								{ value: '' },
+								'Seeking treatment for my client/patient'
+							)
 						)
 					)
 				)
