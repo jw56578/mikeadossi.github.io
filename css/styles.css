@@ -330,11 +330,12 @@ a:hover{
 	.viewButton{
 		display:block;
 		margin-left:30%;
-		height:2em;
+		padding:12px;
 		width:8em;
 		border:solid steelblue 1px;
 		background-color:white;
 		margin-bottom:3em;
+		color:black;
 	}
 
 	.mobileDetails{
