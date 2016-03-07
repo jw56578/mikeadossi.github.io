@@ -41,7 +41,7 @@ li {
 
 #pageHeader {
   background-color: lightgrey;
-  padding:0.5em; }
+  padding: 0.5em; }
 
 #componentContainer {
   padding: 0 3em 2em 3em; }
@@ -69,8 +69,7 @@ li {
 
 .col-sm-12 {
   border: 1px solid rgba(86, 61, 124, 0.2);
-  padding: 0.7em;
-  height:22em; }
+  padding: 0.7em; }
 
 .bottomLinkHeading {
   text-align: center; }
@@ -86,7 +85,7 @@ li {
 
 .imgDescription {
   display: inline-block;
-  width: 30%;
+  width: 20%;
   background-color: grey;
   opacity: 0.5;
   position: absolute;
@@ -99,24 +98,52 @@ li {
 
 .sliderText {
   display: inline-block;
-  width: 30%; 
+  width: 20%;
   position: absolute;
   height: 100%;
+  top: 30px;
   left: 10px;
   font-weight: bold;
   color: white;
   padding: 1em; }
 
-.dotBorders{
-  border-style:dotted;
-  margin-left:20px;
-  margin-right:20px;
-  padding:10px;
-}
+.dotBorders {
+  border-style: dotted;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px; }
 
-.addressUl{
-  list-style-type:none;
-}
+.addressUl {
+  list-style-type: none; }
 
+.required {
+  color: red; }
 
+.formSection {
+  float: left;
+  width: 100%; }
 
+.wideInputBox {
+  width: 100%; }
+
+.cityInput {
+  width: 40%;
+  float: left; }
+
+.stateInput {
+  width: 20%;
+  float: left; }
+
+.zipInput {
+  width: 40%;
+  float: left; }
+
+label {
+  display: block; }
+
+.fiftyPercentBlocks {
+  width: 50%;
+  float: left; }
+
+.fiftyPercentInputs {
+  width: 100%; }

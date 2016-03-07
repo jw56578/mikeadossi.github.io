@@ -51,7 +51,7 @@ li{
 
 #pageHeader{
   background-color:lightgrey;
-
+  padding:0.5em;
 }
 
 #componentContainer{
@@ -128,6 +128,53 @@ margin-right:12px;
   font-weight:bold;
   color:white;
   padding:1em;
+}
+
+.dotBorders{
+  border-style:dotted;
+  margin-left:20px;
+  margin-right:20px;
+  padding:10px;
+}
+
+.addressUl{
+  list-style-type:none;
+}
+
+.required{
+  color:red;
+}
+
+.formSection{
+  float:left;
+  width:100%;
+}
+
+.wideInputBox{
+  width:100%;
+}
+
+.cityInput{
+  width:40%;
+  float:left;
+}
+.stateInput{
+  width:20%;
+  float:left;
+}
+.zipInput{
+  width:40%;
+  float:left;
+}
+label{
+  display:block;
+}
+.fiftyPercentBlocks{
+  width:50%;
+  float:left;
+}
+.fiftyPercentInputs{
+  width:100%;
 }
 
 
