@@ -33384,6 +33384,15 @@ module.exports = React.createClass({
 						null,
 						React.createElement(
 							'a',
+							{ href: '#' },
+							'Home'
+						)
+					),
+					React.createElement(
+						'li',
+						null,
+						React.createElement(
+							'a',
 							{ href: '#contact' },
 							'Contact'
 						)

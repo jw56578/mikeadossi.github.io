@@ -10,6 +10,7 @@ render:function(){
 				<div className="footerDiv1">
 					<h3>OUR WEBSITE</h3>
 					<ul className="footerUl">
+						<li><a href="#">Home</a></li>
 						<li><a href="#contact">Contact</a></li>
 						<li><a href="#about">About Us</a></li>
 						<li><a href="#programsAndServices">Our Services</a></li>
