@@ -33543,6 +33543,11 @@ module.exports = React.createClass({
 			{ id: 'componentContainer' },
 			React.createElement(
 				'div',
+				null,
+				React.createElement('img', { className: 'sliderResponsiveImage', src: './images/staff.jpg' })
+			),
+			React.createElement(
+				'div',
 				{ className: 'jQuery slider' },
 				React.createElement(
 					'div',
@@ -33595,7 +33600,7 @@ module.exports = React.createClass({
 			),
 			React.createElement(
 				'div',
-				{ style: { 'text-align': "center" } },
+				{ className: 'sliderLinks', style: { 'text-align': "center" } },
 				React.createElement('a', { onClick: sliderTo.bind(null, 1), className: 'pageButton' }),
 				React.createElement('a', { onClick: sliderTo.bind(this, 2), className: 'pageButton' }),
 				React.createElement('a', { onClick: sliderTo.bind(this, 3), className: 'pageButton' })

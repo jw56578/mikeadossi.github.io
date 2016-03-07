@@ -12,6 +12,9 @@ render:function(){
 
 	return(
 			<div id="componentContainer">
+			<div>
+				<img className="sliderResponsiveImage" src="./images/staff.jpg"></img>
+			</div>
 			<div className="jQuery slider">
 				<div id="1" className="sliderDivs">
 					<span className="imgDescription"></span>
@@ -29,7 +32,7 @@ render:function(){
 					<img  src="images/elder.jpg" border="0" alt="elder" />
 				</div>
 			</div>
-			<div style={{'text-align':"center"}}>
+			<div className="sliderLinks" style={{'text-align':"center"}}>
 				<a onClick={sliderTo.bind(null,1)} className="pageButton"></a>
 				<a onClick={sliderTo.bind(this,2)} className="pageButton"></a>
 				<a onClick={sliderTo.bind(this,3)} className="pageButton"></a>
