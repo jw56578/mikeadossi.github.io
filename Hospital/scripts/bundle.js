@@ -33737,15 +33737,15 @@ module.exports = React.createClass({
 								React.createElement(
 									'li',
 									{ className: 'dropdown-header' },
-									'header'
+									'What we offer'
 								),
 								React.createElement(
 									'li',
 									null,
 									React.createElement(
 										'a',
-										{ href: '#' },
-										'new1'
+										{ href: '#programsAndServices' },
+										'Our programs & services'
 									)
 								),
 								React.createElement(
@@ -33753,8 +33753,35 @@ module.exports = React.createClass({
 									null,
 									React.createElement(
 										'a',
-										{ href: '#' },
-										'new2'
+										{ href: '#programsAndServices' },
+										'Inpatient Acute Care'
+									)
+								),
+								React.createElement(
+									'li',
+									null,
+									React.createElement(
+										'a',
+										{ href: '#programsAndServices' },
+										'Inpatient Substance Abuse Services'
+									)
+								),
+								React.createElement(
+									'li',
+									null,
+									React.createElement(
+										'a',
+										{ href: '#programsAndServices' },
+										'Inpatient Outpatient Program (IOP)'
+									)
+								),
+								React.createElement(
+									'li',
+									null,
+									React.createElement(
+										'a',
+										{ href: '#programsAndServices' },
+										'Inpatient Partial Day Program (IOP)'
 									)
 								)
 							)
@@ -33938,15 +33965,70 @@ module.exports = React.createClass({
 					)
 				)
 			),
+			React.createElement('br', null),
 			React.createElement(
 				'p',
 				null,
-				'Velit animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis, eu vim viris debitis.'
+				'Our Hospital offers a comprehensive continuum of care for children, adolescents, adults, and senior adults with psychiatric or substance abuse problems, including mental health, chemical dependency, dual diagnosis / co-occurring, crisis stabilization, partial day hospitalization, intensive outpatient, and medication management.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h4',
+				null,
+				'The Excel Centers – Short-Term, Outpatient Treatment Alternative'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'p',
+				null,
+				'At Millwood Hospital, we understand there are times people need additional support and therapeutic guidance to overcome challenges and events in life.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'p',
+				null,
+				'The Excel Centers provide a short-term, outpatient treatment alternative for all ages: school aged children through adulthood with psychiatric disorders.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'p',
+				null,
+				'The programs offer a structured, intensive, individually tailored opportunity to strengthen daily functioning. The Excel Centers incorporate the latest research in mental health uses the therapeutic techniques and skills adopted from Cognitive Behavioral Therapy, solution-focused therapy and Motivational Interviewing.'
+			),
+			React.createElement('br', null),
+			React.createElement(
+				'h4',
+				null,
+				'Treatment Programs'
 			),
 			React.createElement(
-				'p',
+				'ul',
 				null,
-				'Harum omnes pri ea. Eius legere mediocritatem usu ad, vix cu veri blandit, nec amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque singulis id ius. Impedit veritus deseruisse ad has, percipit iracundia vulputate cu qui.'
+				React.createElement(
+					'li',
+					null,
+					'Groups offered to identify, discuss and explore new ways of addressing problems'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Services provided by a multidisciplinary team of mental health professionals'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Ongoing care provided through discharge planning to facilitate a successful adjustment back to daily activities'
+				),
+				React.createElement(
+					'li',
+					null,
+					'Specialized groups designed to meet the specific needs of each stage of life'
+				),
+				React.createElement(
+					'li',
+					null,
+					'School for children who are currently enrolled in elementary through high school'
+				)
 			)
 		);
 	}

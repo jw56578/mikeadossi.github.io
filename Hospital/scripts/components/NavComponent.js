@@ -31,9 +31,12 @@ render:function(){
 							<li className="dropdown">
 								<a className="dropdown-toggle" data-toggle="dropdown" id="programsLink" className="navLinks" href="#programsAndServices">PROGRAMS & SERVICES<b className="caret"></b></a>
 								<ul className="dropdown-menu">
-									<li className="dropdown-header">header</li>
-									<li><a href="#">new1</a></li>
-									<li><a href="#">new2</a></li>
+									<li className="dropdown-header">What we offer</li>
+									<li><a href="#programsAndServices">Our programs & services</a></li>
+									<li><a href="#programsAndServices">Inpatient Acute Care</a></li>
+									<li><a href="#programsAndServices">Inpatient Substance Abuse Services</a></li>
+									<li><a href="#programsAndServices">Inpatient Outpatient Program (IOP)</a></li>
+									<li><a href="#programsAndServices">Inpatient Partial Day Program (IOP)</a></li>
 								</ul>
 							</li>
 							<li id="admissionsLink"><a href="#admissions">ADMISSIONS</a></li>

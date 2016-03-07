@@ -16,12 +16,33 @@ render:function(){
 						<button><i className="fa fa-search"></i></button>
 					</div>
 				</div>
+			<br/>
 			<p>
-				Velit animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis, eu vim viris debitis.
+				Our Hospital offers a comprehensive continuum of care for children, adolescents, adults, and senior adults with psychiatric or substance abuse problems, including mental health, chemical dependency, dual diagnosis / co-occurring, crisis stabilization, partial day hospitalization, intensive outpatient, and medication management.
 			</p>
+			<br/>
+			<h4>The Excel Centers – Short-Term, Outpatient Treatment Alternative</h4>
+			<br/>
 			<p>
-				Harum omnes pri ea. Eius legere mediocritatem usu ad, vix cu veri blandit, nec amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque singulis id ius. Impedit veritus deseruisse ad has, percipit iracundia vulputate cu qui.
+				At Millwood Hospital, we understand there are times people need additional support and therapeutic guidance to overcome challenges and events in life.
 			</p>
+			<br/>
+			<p>
+				The Excel Centers provide a short-term, outpatient treatment alternative for all ages: school aged children through adulthood with psychiatric disorders.
+			</p>
+			<br/>
+			<p>
+				The programs offer a structured, intensive, individually tailored opportunity to strengthen daily functioning. The Excel Centers incorporate the latest research in mental health uses the therapeutic techniques and skills adopted from Cognitive Behavioral Therapy, solution-focused therapy and Motivational Interviewing.
+			</p>
+			<br/>
+			<h4>Treatment Programs</h4>
+			<ul>
+				<li>Groups offered to identify, discuss and explore new ways of addressing problems</li>
+				<li>Services provided by a multidisciplinary team of mental health professionals</li>
+				<li>Ongoing care provided through discharge planning to facilitate a successful adjustment back to daily activities</li>
+				<li>Specialized groups designed to meet the specific needs of each stage of life</li>
+				<li>School for children who are currently enrolled in elementary through high school</li>
+			</ul>
 			</div>
 		)
 
