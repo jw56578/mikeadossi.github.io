@@ -34042,7 +34042,7 @@ module.exports = React.createClass({
 			),
 			React.createElement('br', null),
 			React.createElement('br', null),
-			React.createElement('img', { src: './images/drS_Bob.png' }),
+			React.createElement('img', { src: './images/drSpongeBob.png' }),
 			React.createElement(
 				'h4',
 				null,

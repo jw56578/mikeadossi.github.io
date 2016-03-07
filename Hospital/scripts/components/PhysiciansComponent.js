@@ -25,7 +25,7 @@ render:function(){
 				</p>
 				<br/>
 				<br/>
-				<img src="./images/drS_Bob.png"></img>
+				<img src="./images/drSpongeBob.png"></img>
 				<h4>Dr SpongeBob Squarepants, MD</h4>
 				<p>
 					Dr. Squarepants at the ripe age of 29 graduated magna cum laude from the prestigious Bikini Bottom University Medical School. He is well known and loved all over the world, for his enthusiasm, always cheerful attitude and medical acumen. He is a member of both the American Medical Association and the Texas Medical Association
