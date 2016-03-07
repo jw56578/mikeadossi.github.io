@@ -24,6 +24,7 @@ render:function(){
 								<a className="dropdown-toggle" data-toggle="dropdown" id="aboutLink" className="navLinks" href="#about">ABOUT US<b className="caret"></b></a>
 								<ul className="dropdown-menu">
 									<li className="dropdown-header">Who we are</li>
+									<li><a href="#about">About</a></li>
 									<li><a href="#careers">Careers</a></li>
 								</ul>
 							</li>

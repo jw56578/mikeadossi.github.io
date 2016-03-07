@@ -32392,7 +32392,7 @@ module.exports = React.createClass({
 			React.createElement(
 				'h1',
 				{ id: 'pageHeader' },
-				'About Us'
+				'About'
 			),
 			React.createElement('br', null),
 			React.createElement(
@@ -32786,9 +32786,19 @@ module.exports = React.createClass({
 			'div',
 			{ id: 'componentContainer' },
 			React.createElement(
-				'h1',
-				{ id: 'pageHeader' },
-				'Contact Us'
+				'div',
+				{ className: 'pageHeaderContainer' },
+				React.createElement(
+					'h2',
+					null,
+					'Contact'
+				),
+				React.createElement('input', { placeholder: 'Search Website' }),
+				React.createElement(
+					'button',
+					null,
+					React.createElement('i', { className: 'fa fa-search' })
+				)
 			),
 			React.createElement('br', null),
 			React.createElement(
@@ -33233,7 +33243,7 @@ module.exports = React.createClass({
 						React.createElement('br', null),
 						React.createElement(
 							'p',
-							null,
+							{ className: 'moreInformation' },
 							'How can we assist you?'
 						),
 						React.createElement(
@@ -33263,6 +33273,15 @@ module.exports = React.createClass({
 								'option',
 								{ value: '' },
 								'Seeking treatment for my client/patient'
+							)
+						),
+						React.createElement(
+							'div',
+							null,
+							React.createElement(
+								'button',
+								{ className: 'formSubmitButton' },
+								'Submit'
 							)
 						)
 					)
@@ -33620,6 +33639,15 @@ module.exports = React.createClass({
 									'li',
 									{ className: 'dropdown-header' },
 									'Who we are'
+								),
+								React.createElement(
+									'li',
+									null,
+									React.createElement(
+										'a',
+										{ href: '#about' },
+										'About'
+									)
 								),
 								React.createElement(
 									'li',

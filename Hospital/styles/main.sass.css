@@ -39,9 +39,17 @@
 li {
   text-align: left; }
 
-#pageHeader {
+.pageHeaderContainer {
   background-color: lightgrey;
   padding: 0.5em; }
+
+.pageHeader {
+  width: 50%; }
+
+.searchContainer {
+  float: right;
+  width: 50%;
+  display: inline-block; }
 
 #componentContainer {
   padding: 0 3em 2em 3em; }
@@ -147,3 +155,13 @@ label {
 
 .fiftyPercentInputs {
   width: 95%; }
+
+.moreInformation {
+  margin-top: 10px; }
+
+.formSubmitButton {
+  width: 100%;
+  margin-top: 10px; }
+
+.searchButton {
+  background-color: grey; }
