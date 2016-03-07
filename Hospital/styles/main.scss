@@ -203,3 +203,12 @@ label{
   color:red;
   display:none;
 }
+.aboutUl, .programsUl{
+  list-style:none;
+}
+.aboutUl li:first-of-type{
+  margin-left:-2.9em;
+}
+.programsUl li:first-of-type{
+  margin-left:-2.9em;
+}

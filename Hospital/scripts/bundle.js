@@ -34173,15 +34173,122 @@ module.exports = React.createClass({
 					)
 				)
 			),
+			React.createElement('br', null),
 			React.createElement(
 				'p',
 				null,
-				'Velit animal splendide ne vim, quod dicit id sea. Aperiri concludaturque eum an. Appetere persequeris nam ad. Ea vel error adipisci facilisis, eu vim viris debitis.'
+				React.createElement(
+					'a',
+					{ href: '#' },
+					'Home'
+				)
+			),
+			React.createElement(
+				'ul',
+				{ className: 'aboutUl' },
+				React.createElement(
+					'li',
+					null,
+					React.createElement(
+						'a',
+						{ href: '#about' },
+						'About Us'
+					)
+				),
+				React.createElement(
+					'li',
+					null,
+					React.createElement(
+						'a',
+						{ href: '#careers' },
+						'Careers'
+					)
+				),
+				React.createElement(
+					'li',
+					null,
+					React.createElement(
+						'a',
+						{ href: '' },
+						'Physicians'
+					)
+				)
+			),
+			React.createElement(
+				'ul',
+				{ className: 'programsUl' },
+				React.createElement(
+					'li',
+					null,
+					React.createElement(
+						'a',
+						{ href: '#programsAndServices' },
+						'Programs & Services'
+					)
+				),
+				React.createElement(
+					'li',
+					null,
+					React.createElement(
+						'a',
+						null,
+						'Inpatient Acute Care'
+					)
+				),
+				React.createElement(
+					'li',
+					null,
+					React.createElement(
+						'a',
+						null,
+						'Inpatient Substance Abuse Services'
+					)
+				),
+				React.createElement(
+					'li',
+					null,
+					React.createElement(
+						'a',
+						null,
+						'Intensive Outpatient Program (IOP)'
+					)
+				),
+				React.createElement(
+					'li',
+					null,
+					React.createElement(
+						'a',
+						{ href: '' },
+						'Partial Day Program'
+					)
+				)
 			),
 			React.createElement(
 				'p',
 				null,
-				'Harum omnes pri ea. Eius legere mediocritatem usu ad, vix cu veri blandit, nec amet expetenda ex. Id mea quem periculis consequuntur, in has elit denique argumentum. No tota nominati assentior vel, qui at pertinacia adipiscing, diam aeque singulis id ius. Impedit veritus deseruisse ad has, percipit iracundia vulputate cu qui.'
+				React.createElement(
+					'a',
+					{ href: '#admissions' },
+					'Admissions'
+				)
+			),
+			React.createElement(
+				'p',
+				null,
+				React.createElement(
+					'a',
+					{ href: '#newsAndEvents' },
+					'News & Events'
+				)
+			),
+			React.createElement(
+				'p',
+				null,
+				React.createElement(
+					'a',
+					{ href: '#contact' },
+					'Contact Us'
+				)
 			)
 		);
 	}
