@@ -35,10 +35,12 @@ render:function(){
 								<div className="fiftyPercentBlocks">
 									<label for="firstName">First Name <span className="required">*</span></label>
 									<input type="text" id="firstName" name="firstName"  className="fiftyPercentInputs"></input>
+									<div className="firstNameWarning warning">Please enter your first name.</div>
 								</div>
 								<div className="fiftyPercentBlocks">
 									<label for="lastName">Last Name <span className="required">*</span></label>
 									<input type="text" id="lastName" name="lastName"  className="fiftyPercentInputs"></input>
+									<div className="lastNameWarning warning">Please enter your last name.</div>
 								</div>
 							</div>
 
@@ -50,21 +52,24 @@ render:function(){
 									<div className="fiftyPercentBlocks">
 										<label>Phone Number <span className="required">*</span></label>
 										<input className="fiftyPercentInputs"></input>
+										<div className="phoneNumberWarning warning">Please enter your complete phone number, with area code.</div>
 									</div>
 							</div>
 
 							<div className="formSection">
 								<label for="email">Email <span className="required">*</span></label>
 								<input id="email" className="wideInputBox"></input>
+								<div className="emailWarning warning">Please enter your complete email address.</div>
 							</div>
 
 							<div className="formSection">
 								<label>Address 1 <span className="required">*</span></label>
 								<input className="wideInputBox"></input>
+								<div className="addressWarning warning">Please enter your address.</div>
 							</div>
 
 							<div className="formSection">
-								<label>Address 2 <span className="required">*</span></label>
+								<label>Address 2</label>
 								<input className="wideInputBox"></input>
 							</div>
 
@@ -72,6 +77,7 @@ render:function(){
 								<div className="cityInput">
 									<label>City <span className="required">*</span></label>
 									<input className="fiftyPercentInputs"></input>
+									<div className="Warning warning">Please enter your city.</div>
 								</div>
 								<div className="stateInput">
 									<label>State <span className="required">*</span></label>
@@ -132,6 +138,7 @@ render:function(){
 								<div className="zipInput">
 									<label>Zip <span className="required">*</span></label>
 									<input className="fiftyPercentInputs"></input>
+									<div className="zipWarning warning">Please enter your last name.</div>
 								</div>
 							</div>
 							<br/>
