@@ -22,7 +22,7 @@ module.exports = React.createClass({
 		return(
 			<div id="footerContainer">
 				<p id="footerText">
-					Forged at TIY, 2015
+					Copyright &copy; Mike Adossi, 2016
 				</p>
 			</div>
 		)

@@ -32593,7 +32593,7 @@ module.exports = React.createClass({
 			React.createElement(
 				"p",
 				{ id: "footerText" },
-				"Forged at TIY, 2015"
+				"Copyright © Mike Adossi, 2016"
 			)
 		);
 	}
