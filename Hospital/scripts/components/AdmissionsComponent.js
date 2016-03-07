@@ -7,7 +7,15 @@ render:function(){
 
 	return(
 			<div id="componentContainer">
-			<h1 id="pageHeader">Admissions</h1>
+				<div className="pageHeaderContainer">
+					<div className="pageHeaderLeftContainer">
+						<h2>Admissions</h2>
+					</div>
+					<div className="pageHeaderRightContainer">
+						<input placeholder="Search Website"></input>
+						<button><i className="fa fa-search"></i></button>
+					</div>
+				</div>
 			<br/>
 			<p>
 				We provide various caring options to help people of all ages. Many times problems can be addressed in a less restrictive environment.

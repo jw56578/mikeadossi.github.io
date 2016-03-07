@@ -7,7 +7,15 @@ render:function(){
 
 	return(
 			<div id="componentContainer">
-			<h1 id="pageHeader">News & Events</h1>
+				<div className="pageHeaderContainer">
+					<div className="pageHeaderLeftContainer">
+						<h2>News & Events</h2>
+					</div>
+					<div className="pageHeaderRightContainer">
+						<input placeholder="Search Website"></input>
+						<button><i className="fa fa-search"></i></button>
+					</div>
+				</div>
 			<br/>
 			<p>
 				Our Hospital recognized “Mental Health Awareness Month” by hosting a celebration honoring our community’s focus and commitment to providing superior quality healthcare treatment for patients and families with mental, behavioral or chemical dependency needs.

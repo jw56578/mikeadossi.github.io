@@ -7,7 +7,15 @@ render:function(){
 
 	return(
 			<div id="componentContainer">
-			<h1 id="pageHeader">Careers</h1>
+				<div className="pageHeaderContainer">
+					<div className="pageHeaderLeftContainer">
+						<h2>Careers</h2>
+					</div>
+					<div className="pageHeaderRightContainer">
+						<input placeholder="Search Website"></input>
+						<button><i className="fa fa-search"></i></button>
+					</div>
+				</div>
 			<br/>
 			<p>
 				Thank you for your interest in a career with Millwood Hospital. Send your resume to careers@hospital.com.

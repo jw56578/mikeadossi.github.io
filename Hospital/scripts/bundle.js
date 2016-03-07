@@ -32390,9 +32390,27 @@ module.exports = React.createClass({
 			'div',
 			{ id: 'componentContainer' },
 			React.createElement(
-				'h1',
-				{ id: 'pageHeader' },
-				'About'
+				'div',
+				{ className: 'pageHeaderContainer' },
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderLeftContainer' },
+					React.createElement(
+						'h2',
+						null,
+						'About'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderRightContainer' },
+					React.createElement('input', { placeholder: 'Search Website' }),
+					React.createElement(
+						'button',
+						null,
+						React.createElement('i', { className: 'fa fa-search' })
+					)
+				)
 			),
 			React.createElement('br', null),
 			React.createElement(
@@ -32453,9 +32471,27 @@ module.exports = React.createClass({
 			'div',
 			{ id: 'componentContainer' },
 			React.createElement(
-				'h1',
-				{ id: 'pageHeader' },
-				'Admissions'
+				'div',
+				{ className: 'pageHeaderContainer' },
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderLeftContainer' },
+					React.createElement(
+						'h2',
+						null,
+						'Admissions'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderRightContainer' },
+					React.createElement('input', { placeholder: 'Search Website' }),
+					React.createElement(
+						'button',
+						null,
+						React.createElement('i', { className: 'fa fa-search' })
+					)
+				)
 			),
 			React.createElement('br', null),
 			React.createElement(
@@ -32650,9 +32686,27 @@ module.exports = React.createClass({
 			'div',
 			{ id: 'componentContainer' },
 			React.createElement(
-				'h1',
-				{ id: 'pageHeader' },
-				'Careers'
+				'div',
+				{ className: 'pageHeaderContainer' },
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderLeftContainer' },
+					React.createElement(
+						'h2',
+						null,
+						'Careers'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderRightContainer' },
+					React.createElement('input', { placeholder: 'Search Website' }),
+					React.createElement(
+						'button',
+						null,
+						React.createElement('i', { className: 'fa fa-search' })
+					)
+				)
 			),
 			React.createElement('br', null),
 			React.createElement(
@@ -33755,9 +33809,27 @@ module.exports = React.createClass({
 			'div',
 			{ id: 'componentContainer' },
 			React.createElement(
-				'h1',
-				{ id: 'pageHeader' },
-				'News & Events'
+				'div',
+				{ className: 'pageHeaderContainer' },
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderLeftContainer' },
+					React.createElement(
+						'h2',
+						null,
+						'News & Events'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderRightContainer' },
+					React.createElement('input', { placeholder: 'Search Website' }),
+					React.createElement(
+						'button',
+						null,
+						React.createElement('i', { className: 'fa fa-search' })
+					)
+				)
 			),
 			React.createElement('br', null),
 			React.createElement(
@@ -33844,9 +33916,27 @@ module.exports = React.createClass({
 			'div',
 			{ id: 'componentContainer' },
 			React.createElement(
-				'h1',
-				{ id: 'pageHeader' },
-				'Programs & Services'
+				'div',
+				{ className: 'pageHeaderContainer' },
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderLeftContainer' },
+					React.createElement(
+						'h2',
+						null,
+						'Programs & Services'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderRightContainer' },
+					React.createElement('input', { placeholder: 'Search Website' }),
+					React.createElement(
+						'button',
+						null,
+						React.createElement('i', { className: 'fa fa-search' })
+					)
+				)
 			),
 			React.createElement(
 				'p',
@@ -33878,9 +33968,27 @@ module.exports = React.createClass({
 			'div',
 			{ id: 'componentContainer' },
 			React.createElement(
-				'h1',
-				{ id: 'pageHeader' },
-				'Site Map'
+				'div',
+				{ className: 'pageHeaderContainer' },
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderLeftContainer' },
+					React.createElement(
+						'h2',
+						null,
+						'Site Map'
+					)
+				),
+				React.createElement(
+					'div',
+					{ className: 'pageHeaderRightContainer' },
+					React.createElement('input', { placeholder: 'Search Website' }),
+					React.createElement(
+						'button',
+						null,
+						React.createElement('i', { className: 'fa fa-search' })
+					)
+				)
 			),
 			React.createElement(
 				'p',

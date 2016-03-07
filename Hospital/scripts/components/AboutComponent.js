@@ -7,7 +7,15 @@ render:function(){
 
 	return(
 			<div id="componentContainer">
-			<h1 id="pageHeader">About</h1>
+				<div className="pageHeaderContainer">
+					<div className="pageHeaderLeftContainer">
+						<h2>About</h2>
+					</div>
+					<div className="pageHeaderRightContainer">
+						<input placeholder="Search Website"></input>
+						<button><i className="fa fa-search"></i></button>
+					</div>
+				</div>
 			<br/>
 			<p>
 				Our Hospital, located in Arlington, Texas, is a 122-bed facility that provides inpatient and outpatient mental health and chemical dependency care. Since 1971, children, adolescents, adults and older adults have relied on our Hospital’s extensive and confidential services to help overcome emotional and chemical dependency problems.
