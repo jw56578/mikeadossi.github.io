@@ -29,7 +29,7 @@ module.exports = React.createClass({
 		
 
 			zipInput = (<div className="inputContainer">
-					<input ref="txtZipcode" className="input" placeholder="enter your zipcode"></input><span><a href="/#map">
+					<input ref="txtZipcode" className="input" value="78704"></input><span><a href="/#map">
 				
 				<button onClick={this.goToMap} className= "spacedButton findButton" type="submit">Find</button></a></span>
 				</div>)

@@ -32698,7 +32698,7 @@ module.exports = React.createClass({
 		zipInput = React.createElement(
 			'div',
 			{ className: 'inputContainer' },
-			React.createElement('input', { ref: 'txtZipcode', className: 'input', placeholder: 'enter your zipcode' }),
+			React.createElement('input', { ref: 'txtZipcode', className: 'input', value: '78704' }),
 			React.createElement(
 				'span',
 				null,
@@ -33308,7 +33308,7 @@ module.exports = React.createClass({
 				React.createElement(
 					'div',
 					{ className: 'form-group' },
-					React.createElement('input', { ref: 'navZipCode', type: 'text', className: 'form-control', placeholder: 'enter your zipcode' })
+					React.createElement('input', { ref: 'navZipCode', type: 'text', className: 'form-control', value: '78704' })
 				),
 				React.createElement(
 					'button',

@@ -72,7 +72,7 @@ module.exports = React.createClass({
 
 			zipInput = (<form className="navbar-form navbar-left" role="search">
 					        <div className="form-group">
-					          <input ref="navZipCode" type="text" className="form-control" placeholder="enter your zipcode"></input>
+					          <input ref="navZipCode" type="text" className="form-control" value="78704"></input>
 					        </div>
 					        <button type="submit" className="btn btn-default" onClick={this.takeToMap} >Find</button>
 					      </form>)
