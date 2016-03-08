@@ -33208,9 +33208,9 @@ module.exports = React.createClass({
 });
 
 },{"../services/googlemaptools":187,"react":160}],175:[function(require,module,exports){
-//include all the things you need to use
 'use strict';
 
+ƒ; //include all the things you need to use
 var React = require('react');
 var Backbone = require('backbone');
 //var QuizModel = require('../models/QuizModel');
@@ -35140,9 +35140,6 @@ var Router = Backbone.Router.extend({ // represented below are the routes or the
 	},
 	setAppointment: function setAppointment() {
 		ReactDOM.render(React.createElement(SetAppointmentComponent, { router: r }), app);
-	},
-	quizDetailsPage: function quizDetailsPage(id) {
-		ReactDOM.render(React.createElement(QuizDetailsComponent, { quizId: id, name: "hell", stuf: "whatever" }), app);
 	},
 	home: function home() {
 		ReactDOM.render(React.createElement(HomeComponent, { router: r }), app);

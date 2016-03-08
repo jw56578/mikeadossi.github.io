@@ -73,9 +73,6 @@ var Router = Backbone.Router.extend({ // represented below are the routes or the
 	setAppointment:function(){
 		ReactDOM.render(<SetAppointmentComponent router={r}/>, app);
 	},
-	quizDetailsPage: function(id){
-		ReactDOM.render(<QuizDetailsComponent quizId={id} name={"hell"} stuf={"whatever"}/>, app);
-	},  
 	home:function(){
 		ReactDOM.render(<HomeComponent router={r}/>, app);
 	},
