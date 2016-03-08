@@ -32712,7 +32712,7 @@ module.exports = React.createClass({
 			React.createElement(
 				'p',
 				null,
-				'Thank you for your interest in a career with Millwood Hospital. Send your resume to careers@hospital.com.'
+				'Thank you for your interest in a career with our Hospital. Send your resume to careers@hospital.com.'
 			),
 			React.createElement('br', null),
 			React.createElement(
@@ -32739,7 +32739,7 @@ module.exports = React.createClass({
 			React.createElement(
 				'p',
 				null,
-				'When you join the staff at Millwood Hospital, you have the opportunity to participate and grow through advancement opportunities. We believe in promoting from within the organization and offer mentorship programs and progressive career paths in many areas.'
+				'When you join the staff at our Hospital, you have the opportunity to participate and grow through advancement opportunities. We believe in promoting from within the organization and offer mentorship programs and progressive career paths in many areas.'
 			),
 			React.createElement('br', null),
 			React.createElement(
@@ -32772,7 +32772,7 @@ module.exports = React.createClass({
 			React.createElement(
 				'p',
 				null,
-				'Millwood Hospital offers employees competitive salaries, professional working conditions and an exceptional benefits plan. Our flexible benefits plan lets you select a package of benefits that are right for you and your family.'
+				'Our Hospital offers employees competitive salaries, professional working conditions and an exceptional benefits plan. Our flexible benefits plan lets you select a package of benefits that are right for you and your family.'
 			),
 			React.createElement('br', null),
 			React.createElement(
@@ -32830,20 +32830,6 @@ module.exports = React.createClass({
 
 var React = require('react');
 var Backbone = require('backbone');
-
-/*
-var $formSubmitButton = require('.formSubmitButton');
-var $firstNameWarning = require('.firstNameWarning');
-var $firstName = require('.firstName')
-
-$formSubmitButton.on("click", function(){
-	var valid = true;
-	if($firstName.val().length === 0){
-		$firstNameWarning.show();
-		valid = false;
-	}
-})
-*/
 
 module.exports = React.createClass({
 	displayName: 'exports',

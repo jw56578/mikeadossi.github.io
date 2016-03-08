@@ -32767,6 +32767,24 @@ module.exports = React.createClass({
 		var completeEntries;
 		var incorrectEntries;
 
+		var emailError = "";
+		if (this.state.emailInvalid) {
+			emailError = React.createElement(
+				"div",
+				{ className: "errorMessage" },
+				" Email is invalid"
+			);
+		}
+
+		var passwordError = "";
+		if (this.state.passwordInvalid) {
+			passwordError = React.createElement(
+				"div",
+				{ className: "errorMessage" },
+				" Password is invalid, please enter at least 8 characters"
+			);
+		}
+
 		return React.createElement(
 			"div",
 			{ className: "container" },
@@ -32784,12 +32802,14 @@ module.exports = React.createClass({
 					"Enter your Email"
 				),
 				React.createElement("input", { ref: "txtEmail", className: "input", placeholder: "email address" }),
+				emailError,
 				React.createElement(
 					"h4",
 					null,
 					"Enter Password"
 				),
 				React.createElement("input", { ref: "txtPassword", type: "password", className: "input", placeholder: "enter password here" }),
+				passwordError,
 				React.createElement("br", null),
 				React.createElement("br", null),
 				React.createElement(
@@ -32815,6 +32835,18 @@ module.exports = React.createClass({
 
 		var userName = this.refs.txtEmail.value;
 		var password = this.refs.txtPassword.value;
+		var hasError = false;
+		if (userName == "") {
+			this.setState({ emailInvalid: true });
+			hasError = true;
+		}
+		if (password.length < 8) {
+			this.setState({ passwordInvalid: true });
+			hasError = true;
+		}
+		if (hasError) {
+			return;
+		}
 
 		Parse.User.logIn(userName, password, {
 

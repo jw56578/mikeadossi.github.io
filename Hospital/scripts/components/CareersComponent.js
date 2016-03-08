@@ -18,7 +18,7 @@ render:function(){
 				</div>
 			<br/>
 			<p>
-				Thank you for your interest in a career with Millwood Hospital. Send your resume to careers@hospital.com.
+				Thank you for your interest in a career with our Hospital. Send your resume to careers@hospital.com.
 			</p>
 			<br/>
 			<h4>Five Reasons to Join out Team</h4>
@@ -29,7 +29,7 @@ render:function(){
 			<br/>
 			<h5>Opportunities for Career Advancement</h5>
 			<p>
-				When you join the staff at Millwood Hospital, you have the opportunity to participate and grow through advancement opportunities. We believe in promoting from within the organization and offer mentorship programs and progressive career paths in many areas.
+				When you join the staff at our Hospital, you have the opportunity to participate and grow through advancement opportunities. We believe in promoting from within the organization and offer mentorship programs and progressive career paths in many areas.
 			</p>
 			<br/>
 			<h5>Friendly and Warm Place to Work</h5>
@@ -44,7 +44,7 @@ render:function(){
 			<br/>
 			<h5>Competitive Pay and Benefits</h5>
 			<p>
-				Millwood Hospital offers employees competitive salaries, professional working conditions and an exceptional benefits plan. Our flexible benefits plan lets you select a package of benefits that are right for you and your family.
+				Our Hospital offers employees competitive salaries, professional working conditions and an exceptional benefits plan. Our flexible benefits plan lets you select a package of benefits that are right for you and your family.
 			</p>
 			<br/>
 			<p>

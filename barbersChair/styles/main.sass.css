@@ -281,6 +281,9 @@ a {
   padding: 2em;
   margin-bottom: 1em; }
 
+.errorMessage {
+  color: red; }
+
 @media screen and (max-width: 479px) {
   #navContainer {
     background-color: green; }

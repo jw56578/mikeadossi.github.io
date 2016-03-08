@@ -1,20 +1,6 @@
 var React = require('react');
 var Backbone = require('backbone');
 
-/*
-var $formSubmitButton = require('.formSubmitButton');
-var $firstNameWarning = require('.firstNameWarning');
-var $firstName = require('.firstName')
-
-$formSubmitButton.on("click", function(){
-	var valid = true;
-	if($firstName.val().length === 0){
-		$firstNameWarning.show();
-		valid = false;
-	}
-})
-*/
-
 module.exports = React.createClass({
 
 render:function(){

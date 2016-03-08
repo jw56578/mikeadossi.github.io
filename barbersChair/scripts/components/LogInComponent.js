@@ -18,6 +18,15 @@ module.exports = React.createClass({
 		var completeEntries;
 		var incorrectEntries;
 
+		var emailError = "";
+		if(this.state.emailInvalid){
+		    emailError = <div className="errorMessage"> Email is invalid</div>
+	    }
+
+	    var passwordError = "";
+		if(this.state.passwordInvalid){
+		    passwordError = <div className="errorMessage"> Password is invalid, please enter at least 8 characters</div>
+	    }
 
 		return(
 			<div className="container">
@@ -29,10 +38,13 @@ module.exports = React.createClass({
 						Enter your Email
 					</h4>
 					<input ref="txtEmail" className="input" placeholder="email address"></input>
+					{emailError}
+
 					<h4>
 						Enter Password
 					</h4>
 					<input ref="txtPassword" type="password" className="input" placeholder="enter password here"></input>
+					{passwordError}
 					<br/>
 					<br/>
 					<button onClick={this.login} className="submitButton" type="button">Submit</button>
@@ -45,6 +57,18 @@ module.exports = React.createClass({
 	login:function(){
 		var userName = this.refs.txtEmail.value;
 		var password = this.refs.txtPassword.value;
+		var hasError = false;
+		if(userName == ""){
+			this.setState({emailInvalid:true});
+			hasError = true;
+		}
+		if(password.length < 8){
+			this.setState({passwordInvalid:true});
+			hasError = true;
+		}
+		if(hasError){
+			return;
+		}
 
         Parse.User.logIn( 
 			userName,
