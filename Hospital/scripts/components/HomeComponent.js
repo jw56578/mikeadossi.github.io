@@ -45,7 +45,7 @@ render:function(){
 			<div className="container">
 				<div className="row">
 					<span className="col-sm-4">
-						<span className="col-sm-12">
+						<span className="col-sm-12" >
 							<img className="homeImages" src="images/events.jpeg"></img>
 							<a href="#"><h4 className="bottomLinkHeading">Events</h4></a>
 							<p className="textBelowHomeImages">We offer support groups, CEUs for professionals and a variety of other events! </p>
