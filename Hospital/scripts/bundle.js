@@ -34480,7 +34480,12 @@ ReactDOM.render(React.createElement(FooterComponent, { router: r }), document.ge
 
 console.log(FooterComponent);
 
-$(document).ready(function () {});
+$(document).ready(function () {
+
+	r.on("route", function (data) {
+		$(document).scrollTop(0);
+	});
+});
 
 },{"./components/AboutComponent":162,"./components/AdmissionsComponent":163,"./components/CareersComponent":164,"./components/ContactComponent":165,"./components/FooterComponent":166,"./components/HomeComponent":167,"./components/NavComponent":168,"./components/NewsAndEventsComponent":169,"./components/PhysiciansComponent":170,"./components/ProgramsAndServicesComponent":171,"./components/SearchResultsComponent":172,"./components/SiteMapComponent":173,"backbone":1,"react":161,"react-dom":5}]},{},[174])
 

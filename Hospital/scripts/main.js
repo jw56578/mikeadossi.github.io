@@ -112,6 +112,8 @@ console.log(FooterComponent)
 
 $(document).ready(function(){
 
-
+	r.on("route",function(data){
+		$(document).scrollTop(0);
+	})
 
 })
