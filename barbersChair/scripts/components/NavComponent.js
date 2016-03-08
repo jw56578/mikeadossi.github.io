@@ -1,4 +1,4 @@
-ƒ//include all the things you need to use
+//include all the things you need to use
 var React = require('react');
 var Backbone = require('backbone');
 //var QuizModel = require('../models/QuizModel');

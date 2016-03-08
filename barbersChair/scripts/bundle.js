@@ -33208,9 +33208,9 @@ module.exports = React.createClass({
 });
 
 },{"../services/googlemaptools":187,"react":160}],175:[function(require,module,exports){
+//include all the things you need to use
 'use strict';
 
-//include all the things you need to use
 var React = require('react');
 var Backbone = require('backbone');
 //var QuizModel = require('../models/QuizModel');
