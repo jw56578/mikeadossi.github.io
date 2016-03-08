@@ -3,6 +3,11 @@ var Backbone = require('backbone');
 
 module.exports = React.createClass({
 
+componentDidMount:function(){
+
+	searchHospital();
+},
+
 render:function(){
 
 	return(
