@@ -213,6 +213,33 @@ label{
   margin-left:-2.9em;
 }
 
+.sliderResponsiveImage{
+    display:none;
+  }
+
+@media only screen and (max-width: 875px){
+  .slider{
+    display:none;
+  }
+  .sliderResponsiveImage{
+    display:block;
+    text-align:center;
+    width:100%;
+    height:100%;
+  }
+  .sliderLinks{
+    display:none;
+  }
+
+  .row > span > span > img{
+    display:none;
+  }
+
+  .row > span > span {
+    border:none;
+  }
+}
+
 
 
 
